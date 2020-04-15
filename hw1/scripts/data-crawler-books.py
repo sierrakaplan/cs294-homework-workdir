@@ -35,9 +35,10 @@ import urllib.parse
 import time
 from bs4 import BeautifulSoup
 
-init_url = "https://www.goodreads.com/list/show/264.Books_That_Everyone_Should_Read_At_Least_Once"
+init_url = "https://www.goodreads.com/review/list/13547897-ahmed-hussein?shelf=read"
+#https://www.goodreads.com/book/similar/1196245
 base_url = 'https://www.goodreads.com/'
-target_size = 300
+target_size = 50
 
 
 def crawl(initial, url_pattern, schema_pattern, output, interval=0):
@@ -136,11 +137,11 @@ def main():
         output = crawl(
             init_url,
             lambda url: url.startswith('https://www.goodreads.com/book/'),
-            lambda obj: obj['type'] == 'http://schema.org/Book',
+            lambda obj: obj['type'] == 'http://schema.org/Book' and 'reviews' in obj['properties'],
             output
         )
     finally:
-        with open('./books-goodreads-large.json', 'w') as f:
+        with open('./books-goodreads-reviews-4.json', 'w') as f:
             json.dump(output, f, indent=2, ensure_ascii=False)
 
 
