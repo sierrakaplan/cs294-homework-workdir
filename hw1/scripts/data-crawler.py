@@ -35,8 +35,8 @@ import urllib.parse
 import time
 from bs4 import BeautifulSoup
 
-init_url = 'https://www.yelp.com/search?find_desc=Restaurants&find_loc=stanford'
-base_url = 'https://www.yelp.com/'
+init_url = 'https://www.barnesandnoble.com/'
+base_url = 'https://www.barnesandnoble.com/'
 target_size = 10
 
 
@@ -128,12 +128,12 @@ def main():
     try:
         crawl(
             init_url,
-            lambda url: url.startswith('https://www.yelp.com/biz/'),
-            lambda obj: obj['@type'] == 'Restaurant',
+            lambda url: url.startswith('https://www.barnesandnoble.com/'),
+            lambda obj: obj['@type'] == 'Product',
             output
         )
     finally:
-        with open('./yelp.json', 'w') as f:
+        with open('./books.json', 'w') as f:
             json.dump(output, f, indent=2, ensure_ascii=False)
 
 
