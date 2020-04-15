@@ -1,0 +1,1502 @@
+[
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1553383690i/2657._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/2657.To_Kill_a_Mockingbird",
+      "name": "To Kill a Mockingbird",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/1825.Harper_Lee",
+          "name": "Harper Lee"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474154022i/3._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/3.Harry_Potter_and_the_Sorcerer_s_Stone",
+      "name": "Harry Potter and the Sorcerer's Stone (Harry Potter, #1)",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/1077326.J_K_Rowling",
+          "name": "J.K. Rowling"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320399351i/1885._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/1885.Pride_and_Prejudice",
+      "name": "Pride and Prejudice",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/1265.Jane_Austen",
+          "name": "Jane Austen"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1560816565i/48855._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/48855.The_Diary_of_a_Young_Girl",
+      "name": "The Diary of a Young Girl",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/3720.Anne_Frank",
+          "name": "Anne Frank"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1532714506i/40961427._SX50_.jpg",
+      "url": "https://www.goodreads.com/book/show/40961427-1984",
+      "name": "1984",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/3706.George_Orwell",
+          "name": "George Orwell"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1325861570i/170448._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/170448.Animal_Farm",
+      "name": "Animal Farm",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/3706.George_Orwell",
+          "name": "George Orwell"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1367545443i/157993._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/157993.The_Little_Prince",
+      "name": "The Little Prince",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/1020792.Antoine_de_Saint_Exup_ry",
+          "name": "Antoine de Saint-Exupéry"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1490528560i/4671._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/4671.The_Great_Gatsby",
+      "name": "The Great Gatsby",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/3190.F_Scott_Fitzgerald",
+          "name": "F. Scott Fitzgerald"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1398034300i/5107._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/5107.The_Catcher_in_the_Rye",
+      "name": "The Catcher in the Rye",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/819789.J_D_Salinger",
+          "name": "J.D. Salinger"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1566425108i/33._SX50_.jpg",
+      "url": "https://www.goodreads.com/book/show/33.The_Lord_of_the_Rings",
+      "name": "The Lord of the Rings (The Lord of the Rings, #1-3)",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/656983.J_R_R_Tolkien",
+          "name": "J.R.R. Tolkien"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1557343311i/10210._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/10210.Jane_Eyre",
+      "name": "Jane Eyre",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/1036615.Charlotte_Bront_",
+          "name": "Charlotte Brontë"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1522157426i/19063._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/19063.The_Book_Thief",
+      "name": "The Book Thief",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/11466.Markus_Zusak",
+          "name": "Markus Zusak"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1449868701i/11127._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/11127.The_Chronicles_of_Narnia",
+      "name": "The Chronicles of Narnia (Chronicles of Narnia, #1-7)",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/1069006.C_S_Lewis",
+          "name": "C.S. Lewis"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1572098085i/18135._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/18135.Romeo_and_Juliet",
+      "name": "Romeo and Juliet",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/947.William_Shakespeare",
+          "name": "William Shakespeare"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327869409i/7624._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/7624.Lord_of_the_Flies",
+      "name": "Lord of the Flies",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/306.William_Golding",
+          "name": "William Golding"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474171184i/136251._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/136251.Harry_Potter_and_the_Deathly_Hallows",
+      "name": "Harry Potter and the Deathly Hallows (Harry Potter, #7)",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/1077326.J_K_Rowling",
+          "name": "J.K. Rowling"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1579036753i/77203._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/77203.The_Kite_Runner",
+      "name": "The Kite Runner",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/569.Khaled_Hosseini",
+          "name": "Khaled Hosseini"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1342493368i/3636._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/3636.The_Giver",
+      "name": "The Giver (The Giver, #1)",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/2493.Lois_Lowry",
+          "name": "Lois Lowry"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1174210942i/370493._SX50_.jpg",
+      "url": "https://www.goodreads.com/book/show/370493.The_Giving_Tree",
+      "name": "The Giving Tree",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/435477.Shel_Silverstein",
+          "name": "Shel Silverstein"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1439632243i/24178._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/24178.Charlotte_s_Web",
+      "name": "Charlotte's Web",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/988142.E_B_White",
+          "name": "E.B. White"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1562690475i/1934._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/1934.Little_Women",
+      "name": "Little Women",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/1315.Louisa_May_Alcott",
+          "name": "Louisa May Alcott"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546071216i/5907._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/5907.The_Hobbit_or_There_and_Back_Again",
+      "name": "The Hobbit, or There and Back Again",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/656983.J_R_R_Tolkien",
+          "name": "J.R.R. Tolkien"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1468680100i/23772._SX50_.jpg",
+      "url": "https://www.goodreads.com/book/show/23772.Green_Eggs_and_Ham",
+      "name": "Green Eggs and Ham",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/61105.Dr_Seuss",
+          "name": "Dr. Seuss"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586722975i/2767052._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/2767052-the-hunger-games",
+      "name": "The Hunger Games (The Hunger Games, #1)",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/153394.Suzanne_Collins",
+          "name": "Suzanne Collins"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1511302904i/890._SX50_.jpg",
+      "url": "https://www.goodreads.com/book/show/890.Of_Mice_and_Men",
+      "name": "Of Mice and Men",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/585.John_Steinbeck",
+          "name": "John Steinbeck"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1499277281i/5._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/5.Harry_Potter_and_the_Prisoner_of_Azkaban",
+      "name": "Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/1077326.J_K_Rowling",
+          "name": "J.K. Rowling"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327872220i/24213._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/24213.Alice_s_Adventures_in_Wonderland_Through_the_Looking_Glass",
+      "name": "Alice's Adventures in Wonderland & Through the Looking-Glass",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/8164.Lewis_Carroll",
+          "name": "Lewis Carroll"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1383718290i/13079982._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/13079982-fahrenheit-451",
+      "name": "Fahrenheit 451",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/1630.Ray_Bradbury",
+          "name": "Ray Bradbury"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388212715i/6185._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/6185.Wuthering_Heights",
+      "name": "Wuthering Heights",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/4191.Emily_Bront_",
+          "name": "Emily Brontë"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1551144577i/18405._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/18405.Gone_with_the_Wind",
+      "name": "Gone with the Wind",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/11081.Margaret_Mitchell",
+          "name": "Margaret Mitchell"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1575073611i/1617._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/1617.Night",
+      "name": "Night (The Night Trilogy #1)",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/1049.Elie_Wiesel",
+          "name": "Elie Wiesel"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546103428i/5297._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/5297.The_Picture_of_Dorian_Gray",
+      "name": "The Picture of Dorian Gray",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/3565.Oscar_Wilde",
+          "name": "Oscar Wilde"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1554006152i/6._SX50_.jpg",
+      "url": "https://www.goodreads.com/book/show/6.Harry_Potter_and_the_Goblet_of_Fire",
+      "name": "Harry Potter and the Goblet of Fire (Harry Potter, #4)",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/1077326.J_K_Rowling",
+          "name": "J.K. Rowling"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1313518530i/1923820._SX50_.jpg",
+      "url": "https://www.goodreads.com/book/show/1923820.Holy_Bible",
+      "name": "Holy Bible: King James Version",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/5158478.Anonymous",
+          "name": "Anonymous"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1559986152i/386162._SX50_.jpg",
+      "url": "https://www.goodreads.com/book/show/386162.The_Hitchhiker_s_Guide_to_the_Galaxy",
+      "name": "The Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy, #1)",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/4.Douglas_Adams",
+          "name": "Douglas Adams"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1326706200i/1362112._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/1362112.Tolkien_on_Fairy_stories",
+      "name": "Tolkien on Fairy-stories",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/656983.J_R_R_Tolkien",
+          "name": "J.R.R. Tolkien"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1351051208i/1420._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/1420.Hamlet",
+      "name": "Hamlet",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/947.William_Shakespeare",
+          "name": "William Shakespeare"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546096879i/2956._SX50_.jpg",
+      "url": "https://www.goodreads.com/book/show/2956.The_Adventures_of_Huckleberry_Finn",
+      "name": "The Adventures of Huckleberry Finn",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/1244.Mark_Twain",
+          "name": "Mark Twain"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1156039812i/1._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/1.Harry_Potter_and_the_Half_Blood_Prince",
+      "name": "Harry Potter and the Half-Blood Prince (Harry Potter, #6)",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/1077326.J_K_Rowling",
+          "name": "J.K. Rowling"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1411852091i/24280._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+      "name": "Les Misérables",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/13661.Victor_Hugo",
+          "name": "Victor Hugo"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1331315450i/5479._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/5479.Brave_New_World_Brave_New_World_Revisited",
+      "name": "Brave New World / Brave New World Revisited",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/3487.Aldous_Huxley",
+          "name": "Aldous Huxley"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1466865542i/18144590._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/18144590-the-alchemist",
+      "name": "The Alchemist",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/566.Paulo_Coelho",
+          "name": "Paulo Coelho"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1382846449i/7144._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/7144.Crime_and_Punishment",
+      "name": "Crime and Punishment",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/3137322.Fyodor_Dostoyevsky",
+          "name": "Fyodor Dostoyevsky"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348990566i/5470._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/5470.1984",
+      "name": "1984",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/3706.George_Orwell",
+          "name": "George Orwell"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327873635i/2998._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/2998.The_Secret_Garden",
+      "name": "The Secret Garden",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/2041.Frances_Hodgson_Burnett",
+          "name": "Frances Hodgson Burnett"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1572940430i/4667024._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/4667024-the-help",
+      "name": "The Help",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/1943477.Kathryn_Stockett",
+          "name": "Kathryn Stockett"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1409595968i/929._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/929.Memoirs_of_a_Geisha",
+      "name": "Memoirs of a Geisha",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/614.Arthur_Golden",
+          "name": "Arthur Golden"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1353029077i/100915._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/100915.The_Lion_the_Witch_and_the_Wardrobe",
+      "name": "The Lion, the Witch and the Wardrobe (Chronicles of Narnia, #1)",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/1069006.C_S_Lewis",
+          "name": "C.S. Lewis"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390173285i/1381._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/1381.The_Odyssey",
+      "name": "The Odyssey",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/903.Homer",
+          "name": "Homer"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1468890477i/233093._SX50_.jpg",
+      "url": "https://www.goodreads.com/book/show/233093.The_Cat_in_the_Hat",
+      "name": "The Cat in the Hat",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/61105.Dr_Seuss",
+          "name": "Dr. Seuss"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1406512317i/5326._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/5326.A_Christmas_Carol",
+      "name": "A Christmas Carol",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/239579.Charles_Dickens",
+          "name": "Charles Dickens"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442129426i/231804._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/231804.The_Outsiders",
+      "name": "The Outsiders",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/762707.S_E_Hinton",
+          "name": "S.E. Hinton"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1572261616l/52892857._SX50_SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/52892857-the-color-purple",
+      "name": "The Color Purple",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/7380.Alice_Walker",
+          "name": "Alice Walker"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1375670575i/18114322._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/18114322-the-grapes-of-wrath",
+      "name": "The Grapes of Wrath",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/585.John_Steinbeck",
+          "name": "John Steinbeck"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327881361i/320._SX50_.jpg",
+      "url": "https://www.goodreads.com/book/show/320.One_Hundred_Years_of_Solitude",
+      "name": "One Hundred Years of Solitude",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/13450.Gabriel_Garc_a_M_rquez",
+          "name": "Gabriel García Márquez"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1168052448i/30119._SX50_.jpg",
+      "url": "https://www.goodreads.com/book/show/30119.Where_the_Sidewalk_Ends",
+      "name": "Where the Sidewalk Ends",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/435477.Shel_Silverstein",
+          "name": "Shel Silverstein"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1345958969i/128029._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/128029.A_Thousand_Splendid_Suns",
+      "name": "A Thousand Splendid Suns",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/569.Khaled_Hosseini",
+          "name": "Khaled Hosseini"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1384434560i/19543._SX50_.jpg",
+      "url": "https://www.goodreads.com/book/show/19543.Where_the_Wild_Things_Are",
+      "name": "Where the Wild Things Are",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/4489.Maurice_Sendak",
+          "name": "Maurice Sendak"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390789015i/8127._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/8127.Anne_of_Green_Gables",
+      "name": "Anne of Green Gables (Anne of Green Gables, #1)",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/5350.L_M_Montgomery",
+          "name": "L.M. Montgomery"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1408303130i/375802._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/375802.Ender_s_Game",
+      "name": "Ender's Game (Ender's Saga, #1)",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/589.Orson_Scott_Card",
+          "name": "Orson Scott Card"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1404811979i/24583._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/24583.The_Adventures_of_Tom_Sawyer",
+      "name": "The Adventures of Tom Sawyer",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/1244.Mark_Twain",
+          "name": "Mark Twain"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1344922523i/1953._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/1953.A_Tale_of_Two_Cities",
+      "name": "A Tale of Two Cities",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/239579.Charles_Dickens",
+          "name": "Charles Dickens"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1309203605i/7126._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/7126.The_Count_of_Monte_Cristo",
+      "name": "The Count of Monte Cristo",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/4785.Alexandre_Dumas",
+          "name": "Alexandre Dumas"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320562005i/4214._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/4214.Life_of_Pi",
+      "name": "Life of Pi",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/811.Yann_Martel",
+          "name": "Yann Martel"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516211014i/332613._SX50_.jpg",
+      "url": "https://www.goodreads.com/book/show/332613.One_Flew_Over_the_Cuckoo_s_Nest",
+      "name": "One Flew Over the Cuckoo's Nest",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/7285.Ken_Kesey",
+          "name": "Ken Kesey"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1421708635i/191139._SX50_.jpg",
+      "url": "https://www.goodreads.com/book/show/191139.Oh_the_Places_You_ll_Go_",
+      "name": "Oh, the Places You'll Go!",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/61105.Dr_Seuss",
+          "name": "Dr. Seuss"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546091617i/15823480._SX50_.jpg",
+      "url": "https://www.goodreads.com/book/show/15823480-anna-karenina",
+      "name": "Anna Karenina",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/128382.Leo_Tolstoy",
+          "name": "Leo Tolstoy"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1510416245i/36576608._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/36576608-flowers-for-algernon",
+      "name": "Flowers for Algernon",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/11072.Daniel_Keyes",
+          "name": "Daniel Keyes"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1298440130i/99107._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/99107.Winnie_the_Pooh",
+      "name": "Winnie-the-Pooh (Winnie-the-Pooh, #1)",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/81466.A_A_Milne",
+          "name": "A.A. Milne"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1423763749i/6900._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/6900.Tuesdays_with_Morrie",
+      "name": "Tuesdays with Morrie",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/2331.Mitch_Albom",
+          "name": "Mitch Albom"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1298411339i/34._SX50_.jpg",
+      "url": "https://www.goodreads.com/book/show/34.The_Fellowship_of_the_Ring",
+      "name": "The Fellowship of the Ring (The Lord of the Rings, #1)",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/656983.J_R_R_Tolkien",
+          "name": "J.R.R. Tolkien"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1578028274i/38447._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/38447.The_Handmaid_s_Tale",
+      "name": "The Handmaid's Tale",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/3472.Margaret_Atwood",
+          "name": "Margaret Atwood"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440319389i/4981._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/4981.Slaughterhouse_Five",
+      "name": "Slaughterhouse-Five",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/2778055.Kurt_Vonnegut_Jr_",
+          "name": "Kurt Vonnegut Jr."
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1463157317i/168668._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/168668.Catch_22",
+      "name": "Catch-22 (Catch-22, #1)",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/3167.Joseph_Heller",
+          "name": "Joseph Heller"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1329189714i/2165._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/2165.The_Old_Man_and_the_Sea",
+      "name": "The Old Man and the Sea",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/1455.Ernest_Hemingway",
+          "name": "Ernest Hemingway"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1404810944i/12296._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/12296.The_Scarlet_Letter",
+      "name": "The Scarlet Letter",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/7799.Nathaniel_Hawthorne",
+          "name": "Nathaniel Hawthorne"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1459795224i/8852._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/8852.Macbeth",
+      "name": "Macbeth",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/947.William_Shakespeare",
+          "name": "William Shakespeare"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1361039443i/41865._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/41865.Twilight",
+      "name": "Twilight (Twilight, #1)",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/941441.Stephenie_Meyer",
+          "name": "Stephenie Meyer"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1380660571i/18619684._SX50_.jpg",
+      "url": "https://www.goodreads.com/book/show/18619684-the-time-traveler-s-wife",
+      "name": "The Time Traveler's Wife",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/498072.Audrey_Niffenegger",
+          "name": "Audrey Niffenegger"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1377756377i/7604._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/7604.Lolita",
+      "name": "Lolita",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/5152.Vladimir_Nabokov",
+          "name": "Vladimir Nabokov"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1428715580i/52036._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/52036.Siddhartha",
+      "name": "Siddhartha",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/1113469.Hermann_Hesse",
+          "name": "Hermann Hesse"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1359061917i/485894._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/485894.The_Metamorphosis",
+      "name": "The Metamorphosis",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/5223.Franz_Kafka",
+          "name": "Franz Kafka"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349927872i/49552._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/49552.The_Stranger",
+      "name": "The Stranger",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/957894.Albert_Camus",
+          "name": "Albert Camus"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1381512375i/18490._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/18490.Frankenstein",
+      "name": "Frankenstein",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/11139.Mary_Wollstonecraft_Shelley",
+          "name": "Mary Wollstonecraft Shelley"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1439223893i/32929._SX50_.jpg",
+      "url": "https://www.goodreads.com/book/show/32929.Goodnight_Moon",
+      "name": "Goodnight Moon",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/18479.Margaret_Wise_Brown",
+          "name": "Margaret Wise Brown"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327883484i/14891._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/14891.A_Tree_Grows_in_Brooklyn",
+      "name": "A Tree Grows in Brooklyn",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/2327917.Betty_Smith",
+          "name": "Betty Smith"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1577932823i/114345._SX50_.jpg",
+      "url": "https://www.goodreads.com/book/show/114345.The_Little_House_Collection",
+      "name": "The Little House Collection (Little House, #1-9)",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/5300.Laura_Ingalls_Wilder",
+          "name": "Laura Ingalls Wilder"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1413215930i/656._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/656.War_and_Peace",
+      "name": "War and Peace",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/128382.Leo_Tolstoy",
+          "name": "Leo Tolstoy"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1549260060i/41817486._SX50_.jpg",
+      "url": "https://www.goodreads.com/book/show/41817486-a-clockwork-orange",
+      "name": "A Clockwork Orange",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/5735.Anthony_Burgess",
+          "name": "Anthony Burgess"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474169725i/15881._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/15881.Harry_Potter_and_the_Chamber_of_Secrets",
+      "name": "Harry Potter and the Chamber of Secrets (Harry Potter, #2)",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/1077326.J_K_Rowling",
+          "name": "J.K. Rowling"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441227765i/355697._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/355697.All_Quiet_on_the_Western_Front",
+      "name": "All Quiet on the Western Front",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/4116.Erich_Maria_Remarque",
+          "name": "Erich Maria Remarque"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1213131305i/149267._SX50_.jpg",
+      "url": "https://www.goodreads.com/book/show/149267.The_Stand",
+      "name": "The Stand",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/3389.Stephen_King",
+          "name": "Stephen King"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1414349231i/46787._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/46787.Uncle_Tom_s_Cabin",
+      "name": "Uncle Tom's Cabin",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/26242.Harriet_Beecher_Stowe",
+          "name": "Harriet Beecher Stowe"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546112331i/3836._SX50_.jpg",
+      "url": "https://www.goodreads.com/book/show/3836.Don_Quixote",
+      "name": "Don Quixote",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/4037220.Miguel_de_Cervantes_Saavedra",
+          "name": "Miguel de Cervantes Saavedra"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1275263838i/646462._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/646462.Qur_an_",
+      "name": "Qurʾan / القرآن الكريم",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/5158478.Anonymous",
+          "name": "Anonymous"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405868167i/662._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/662.Atlas_Shrugged",
+      "name": "Atlas Shrugged",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/432.Ayn_Rand",
+          "name": "Ayn Rand"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1427728126i/4934._SX50_.jpg",
+      "url": "https://www.goodreads.com/book/show/4934.The_Brothers_Karamazov",
+      "name": "The Brothers Karamazov",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/3137322.Fyodor_Dostoyevsky",
+          "name": "Fyodor Dostoyevsky"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1412242487i/7244._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/7244.The_Poisonwood_Bible",
+      "name": "The Poisonwood Bible",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/3541.Barbara_Kingsolver",
+          "name": "Barbara Kingsolver"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327389004i/323355._SX50_.jpg",
+      "url": "https://www.goodreads.com/book/show/323355.The_Book_of_Mormon",
+      "name": "The Book of Mormon: Another Testament of Jesus Christ",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/5158478.Anonymous",
+          "name": "Anonymous"
+        }
+      }
+    }
+  },
+  {
+    "type": "http://schema.org/Book",
+    "properties": {
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327940656i/153747._SY75_.jpg",
+      "url": "https://www.goodreads.com/book/show/153747.Moby_Dick_or_the_Whale",
+      "name": "Moby-Dick or, the Whale",
+      "author": {
+        "type": "http://schema.org/Person",
+        "properties": {
+          "url": "https://www.goodreads.com/author/show/1624.Herman_Melville",
+          "name": "Herman Melville"
+        }
+      }
+    }
+  }
+]

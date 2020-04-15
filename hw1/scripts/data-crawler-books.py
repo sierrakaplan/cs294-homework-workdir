@@ -35,9 +35,9 @@ import urllib.parse
 import time
 from bs4 import BeautifulSoup
 
-init_url = "https://openlibrary.org/works/OL3554945W"
-base_url = 'https://openlibrary.org/'
-target_size = 100
+init_url = "https://www.goodreads.com/list/show/264.Books_That_Everyone_Should_Read_At_Least_Once"
+base_url = 'https://www.goodreads.com/'
+target_size = 300
 
 
 def crawl(initial, url_pattern, schema_pattern, output, interval=0):
@@ -70,7 +70,7 @@ def crawl(initial, url_pattern, schema_pattern, output, interval=0):
         # extract the schema.org data
         extracted = extract(response.text, response.url, schema_pattern)
         if extracted is not None:
-            output.append(extracted)
+            output = output + extracted
 
         # mark the current page to be visited
         visited.add(current)
@@ -78,8 +78,11 @@ def crawl(initial, url_pattern, schema_pattern, output, interval=0):
         # find unvisited links in the current page and add to the queue
         add_urls(queue, response.text, url_pattern, visited)
 
+        print("Output size: " + str(len(output)))
+
         # wait to avoid being banned by the website
         time.sleep(interval)
+    return output
 
 
 def extract(html, url, schema_pattern):
@@ -91,15 +94,14 @@ def extract(html, url, schema_pattern):
     :param schema_pattern: the pattern of the json-ld containing the schema.org data
     :return: an object containing the desired schema.org markup from the page
     """
-    data = extruct.extract(html, base_url=url, syntaxes=['microdata', 'opengraph', 'rdfa', 'json-ld'])
-    for schema in data['json-ld']:
-        if schema_pattern(schema):
-            return schema
+    data = extruct.extract(html, base_url=url, syntaxes=['microdata'])
+    schemas = []
     for schema in data['microdata']:
+        # print(schema)
         if schema_pattern(schema):
-            return schema
-    
-    return None
+            schemas.append(schema)
+    print("Schemas added from page: " + str(len(schemas)))
+    return schemas
 
 
 def add_urls(queue, html, url_pattern, visited):
@@ -131,14 +133,14 @@ def add_urls(queue, html, url_pattern, visited):
 def main():
     output = []
     try:
-        crawl(
+        output = crawl(
             init_url,
-            lambda url: url.startswith('https://openlibrary.org'),
-            lambda obj: obj['@type'] == 'Book',
+            lambda url: url.startswith('https://www.goodreads.com/book/'),
+            lambda obj: obj['type'] == 'http://schema.org/Book',
             output
         )
     finally:
-        with open('./books.json', 'w') as f:
+        with open('./books-goodreads-large.json', 'w') as f:
             json.dump(output, f, indent=2, ensure_ascii=False)
 
 
