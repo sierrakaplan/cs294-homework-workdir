@@ -35,8 +35,8 @@ import urllib.parse
 import time
 from bs4 import BeautifulSoup
 
-init_url = 'https://www.nytimes.com/'
-base_url = 'https://www.nytimes.com/'
+init_url = "https://openlibrary.org/books/OL3307263M/The_artist's_guide_to_human_anatomy"
+base_url = 'https://openlibrary.org/'
 target_size = 100
 
 
@@ -92,7 +92,9 @@ def extract(html, url, schema_pattern):
     :return: an object containing the desired schema.org markup from the page
     """
     data = extruct.extract(html, base_url=url, syntaxes=['json-ld'])
+    print(html)
     for schema in data['json-ld']:
+
         if schema_pattern(schema):
             return schema
     return None
@@ -129,12 +131,12 @@ def main():
     try:
         crawl(
             init_url,
-            lambda url: url.startswith('https://www.nytimes.com/'),
-            lambda obj: obj['@type'] == 'NewsArticle',
+            lambda url: url.startswith('https://openlibrary.org'),
+            lambda obj: obj['@type'] == 'Book',
             output
         )
     finally:
-        with open('./news.json', 'w') as f:
+        with open('./books.json', 'w') as f:
             json.dump(output, f, indent=2, ensure_ascii=False)
 
 
