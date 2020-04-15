@@ -8,7 +8,7 @@ memsize := 3072
 genie = node --experimental_worker --max_old_space_size=$(memsize) $(geniedir)/tool/genie.js
 
 experiment ?= books
-white_list = Book
+white_list = Book,Review,Person
 class_name = edu.stanford.cs294s.$(owner)
 
 template_file ?= thingtalk/en/thingtalk.genie
