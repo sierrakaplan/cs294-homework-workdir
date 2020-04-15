@@ -35,9 +35,9 @@ import urllib.parse
 import time
 from bs4 import BeautifulSoup
 
-init_url = 'https://www.barnesandnoble.com/'
-base_url = 'https://www.barnesandnoble.com/'
-target_size = 10
+init_url = 'https://www.nytimes.com/'
+base_url = 'https://www.nytimes.com/'
+target_size = 100
 
 
 def crawl(initial, url_pattern, schema_pattern, output, interval=0):
@@ -65,6 +65,7 @@ def crawl(initial, url_pattern, schema_pattern, output, interval=0):
         # otherwise, start getting information from the url
         print(f'Extract schema.org data from page: {current}')
         response = requests.get(current)
+        response.raise_for_status()
 
         # extract the schema.org data
         extracted = extract(response.text, response.url, schema_pattern)
@@ -128,12 +129,12 @@ def main():
     try:
         crawl(
             init_url,
-            lambda url: url.startswith('https://www.barnesandnoble.com/'),
-            lambda obj: obj['@type'] == 'Product',
+            lambda url: url.startswith('https://www.nytimes.com/'),
+            lambda obj: obj['@type'] == 'NewsArticle',
             output
         )
     finally:
-        with open('./books.json', 'w') as f:
+        with open('./news.json', 'w') as f:
             json.dump(output, f, indent=2, ensure_ascii=False)
 
 
