@@ -1,1 +1,1 @@
-{ "name":"edu.stanford.cs294s.sierrakn", "author": [ "sierrakn <sierrakn@stanford.edu>" ], "license":"BSD-3-Clause", "main":"index.js" }
+{ "name":"edu.stanford.cs294s.sierrakn.Book", "author": [ "sierrakn <sierrakn@stanford.edu>" ], "license":"BSD-3-Clause", "main":"index.js" }

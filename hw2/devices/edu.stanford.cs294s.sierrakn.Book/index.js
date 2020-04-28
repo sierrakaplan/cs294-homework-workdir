@@ -63,14 +63,14 @@ module.exports = class extends Tp.BaseDevice {
     }
 
     async do_buy_book({ book, author, book_seller, address }, env) {
-        // buy the book by author from the book_seller and send to addrss ...
+        // buy the book by author from the book_seller and send to address ...
         let successful = true;
         if (successful) {
             return {
                 reference_number: 'XXXXX'
             };
         } else {
-            throw new Error(`no tables available`);
+            throw new Error(`error purchasing book`);
         }
     }
 };

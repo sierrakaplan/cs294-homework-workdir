@@ -1,6 +1,6 @@
 dataset @edu.stanford.cs294s.sierrakn.Book {
   action := @edu.stanford.cs294s.sierrakn.Book.buy_book()
-  #_[preprocessed=["buy a book""]];
+  #_[preprocessed=["buy a book"]];
 
   action (p_book : Entity(edu.stanford.cs294s.sierrakn.Book)) :=
     @edu.stanford.cs294s.sierrakn.Book.buy_book(book=p_book)
