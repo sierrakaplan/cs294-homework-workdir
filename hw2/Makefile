@@ -6,7 +6,7 @@ parallel := $(shell echo $$(($$(grep processor /proc/cpuinfo | wc -l)-1)))
 genie = node --experimental_worker --max_old_space_size=$(memsize) $(geniedir)/tool/genie.js
 
 ##### BEGIN EDIT HERE to set your developer key #####
-thingpedia_developer_key =
+thingpedia_developer_key =0beeb145cbcef8a1d9a7928d6cd5bb2095db1e58912b494e5e3882ec7dc4d502
 ##### END EDIT HERE #####
 
 ##### BEGIN EDIT HERE to configure your experiments #####

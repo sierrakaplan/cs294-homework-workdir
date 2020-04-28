@@ -1,0 +1,28 @@
+class @edu.stanford.cs294s.sierrakn
+#_[name="sierrakn in Schema.org"]
+#_[description="Scraped data from websites that support schema.org"]
+#[whitelist=["Book"]] {
+  import loader from @org.thingpedia.v2();
+  import config from @org.thingpedia.config.none();
+
+  list query Thing(out id: Entity(edu.stanford.cs294s.sierrakn:Thing) #[unique=true] #[filterable=false] #[org_schema_has_data=true])
+  #_[canonical="thing"]
+  #_[confirmation="thing"]
+  #[confirm=false]
+  #[minimal_projection=["id"]]
+  #[org_schema_has_data=true];
+
+  list query CreativeWork extends Thing(out id: Entity(edu.stanford.cs294s.sierrakn:CreativeWork) #[unique=true] #[filterable=false] #[org_schema_has_data=true])
+  #_[canonical="creative work"]
+  #_[confirmation="creative work"]
+  #[confirm=false]
+  #[minimal_projection=["id"]]
+  #[org_schema_has_data=true];
+
+  list query Book extends CreativeWork(out id: Entity(edu.stanford.cs294s.sierrakn:Book) #[unique=true] #[filterable=false] #[org_schema_has_data=true])
+  #_[canonical="book"]
+  #_[confirmation="book"]
+  #[confirm=false]
+  #[minimal_projection=["id"]]
+  #[org_schema_has_data=true];
+}
