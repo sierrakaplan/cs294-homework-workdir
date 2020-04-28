@@ -15,7 +15,13 @@ class @edu.stanford.cs294s.sierra
   #[org_schema_has_data=true]
   #[org_schema_has_name=true];
 
-  list query CreativeWork extends Thing(out id: Entity(edu.stanford.cs294s.sierra:CreativeWork) #[unique=true] #[filterable=false] #[org_schema_has_data=true],
+  list query CreativeWork extends Thing(out id: Entity(edu.stanford.cs294s.sierra:CreativeWork) 
+  #[unique=true] 
+  #[string_values="edu.stanford.cs294s.sierra:name"]
+                        #_[canonical={
+                          base=["name"],
+                          property=[]
+                        }] #[filterable=false] #[org_schema_has_data=true],
                                         out aggregateRating: {
                                           reviewCount: Number #_[canonical={
                                               base=["number of reviews"]
