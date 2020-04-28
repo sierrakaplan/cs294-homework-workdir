@@ -5,7 +5,6 @@ class @edu.stanford.cs294s.sierrakn.Book
   import loader from @org.thingpedia.v2();
   import config from @org.thingpedia.config.none();
 
-
   list query Thing(out id: Entity(edu.stanford.cs294s.sierrakn.Book:Thing) #[unique=true] #[filterable=false] #[org_schema_has_data=true],
                    out url: Entity(tt:url) #_[canonical={base=["url", "link"]}] #[org_schema_type="URL"] #[org_schema_has_data=true],
                    out image: Entity(tt:picture) #_[canonical={base=["image"]}] #[org_schema_type="URL"] #[org_schema_has_data=true])
@@ -16,8 +15,13 @@ class @edu.stanford.cs294s.sierrakn.Book
   #[org_schema_has_data=true]
   #[org_schema_has_name=true];
 
-
-  list query CreativeWork extends Thing(out id: Entity(edu.stanford.cs294s.sierrakn.Book:CreativeWork) #[unique=true] #[filterable=false] #[org_schema_has_data=true],
+  list query CreativeWork extends Thing(out id: Entity(edu.stanford.cs294s.sierrakn.Book:CreativeWork) 
+  #[unique=true] 
+  #[string_values="edu.stanford.cs294s.sierrakn.Book:name"]
+                        #_[canonical={
+                          base=["name"],
+                          property=[]
+                        }], #[filterable=false] #[org_schema_has_data=true],
                                         out aggregateRating: {
                                           reviewCount: Number #_[canonical={
                                               base=["number of reviews"]
@@ -48,7 +52,6 @@ class @edu.stanford.cs294s.sierrakn.Book
   #[org_schema_has_data=true]
   #[org_schema_has_name=true];
 
-
   list query Book extends CreativeWork(out id: Entity(edu.stanford.cs294s.sierrakn.Book:Book) #[unique=true] #[filterable=false] #[org_schema_has_data=true],
                                        out isbn: String #_[canonical={passive_verb=["isbn"],base=["isbn"]}] #[org_schema_type="Text"] #[string_values="edu.stanford.cs294s.sierrakn.Book:Book_isbn"] #[org_schema_has_data=true],
                                        out bookEdition: String #_[canonical={base=["book edition"]}] #[org_schema_type="Text"] #[string_values="edu.stanford.cs294s.sierrakn.Book:Book_bookEdition"] #[org_schema_has_data=true],
@@ -65,7 +68,6 @@ class @edu.stanford.cs294s.sierrakn.Book
   #[org_schema_has_data=true]
   #[org_schema_has_name=true];
 
-
   list query Person extends Thing(out id: Entity(edu.stanford.cs294s.sierrakn.Book:Person) #[unique=true] #[filterable=false] #[org_schema_has_data=true])
   #_[canonical="person"]
   #_[confirmation="person"]
@@ -73,7 +75,6 @@ class @edu.stanford.cs294s.sierrakn.Book
   #[minimal_projection=["id"]]
   #[org_schema_has_data=true]
   #[org_schema_has_name=true];
-
 
   action buy_book(in req book : Entity(edu.stanford.cs294s.sierrakn.Book:Book)
                           #[string_values="edu.stanford.cs294s.sierrakn.Book:name"]
@@ -85,7 +86,7 @@ class @edu.stanford.cs294s.sierrakn.Book
                           #_[canonical={
                             default="passive_verb",
                             base=["author"],
-                            passive_verb = ["written by #", "by #"],
+                            passive_verb = ["written by #", "by #"]
                           }],
                           in req book_seller : Enum(amazon, barnesandnoble)
                           #_[prompt=["where do you want to buy your book",
@@ -93,7 +94,7 @@ class @edu.stanford.cs294s.sierrakn.Book
                                      ]]
                           #_[canonical={
                             default="base",
-                            base=["book seller", "website", "online bookstore", "bookstore"],
+                            base=["book seller", "website", "online bookstore", "bookstore"]
                           }],
                           in req address : String
                           #_[prompt=["where should I send this book",
