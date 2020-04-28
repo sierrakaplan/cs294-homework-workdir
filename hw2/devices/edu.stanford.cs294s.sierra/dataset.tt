@@ -1,0 +1,10 @@
+dataset @edu.stanford.cs294s.sierra {
+  action := @edu.stanford.cs294s.sierra.buy_book()
+  #_[preprocessed=["buy a book"]];
+
+  action (p_book : Entity(edu.stanford.cs294s.sierra:Book)) :=
+    @edu.stanford.cs294s.sierra.buy_book(book=p_book)
+  #_[preprocessed=["buy ${p_book}",
+                   "purchase ${p_book}",
+                   "send me ${p_book}"]];
+}

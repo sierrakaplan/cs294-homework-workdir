@@ -80,2681 +80,2681 @@
       "has_ner_support": 0
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Thing",
+      "type": "edu.stanford.cs294s.sierra:Thing",
       "name": "Thing",
       "is_well_known": false,
       "has_ner_support": true
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:CreativeWork",
+      "type": "edu.stanford.cs294s.sierra:CreativeWork",
       "name": "Creative Work",
       "is_well_known": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:SoftwareApplication",
+      "type": "edu.stanford.cs294s.sierra:SoftwareApplication",
       "name": "Software Application",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Event",
+      "type": "edu.stanford.cs294s.sierra:Event",
       "name": "Event",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:UserInteraction",
+      "type": "edu.stanford.cs294s.sierra:UserInteraction",
       "name": "User Interaction",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:UserLikes",
+      "type": "edu.stanford.cs294s.sierra:UserLikes",
       "name": "User Likes",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Place",
+      "type": "edu.stanford.cs294s.sierra:Place",
       "name": "Place",
       "is_well_known": false,
       "has_ner_support": true
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Organization",
+      "type": "edu.stanford.cs294s.sierra:Organization",
       "name": "Organization",
       "is_well_known": false,
       "has_ner_support": true
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:LocalBusiness",
+      "type": "edu.stanford.cs294s.sierra:LocalBusiness",
       "name": "Local Business",
       "is_well_known": false,
       "has_ner_support": true
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:FoodEstablishment",
+      "type": "edu.stanford.cs294s.sierra:FoodEstablishment",
       "name": "Food Establishment",
       "is_well_known": false,
       "has_ner_support": true
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:CafeOrCoffeeShop",
+      "type": "edu.stanford.cs294s.sierra:CafeOrCoffeeShop",
       "name": "Cafe Or Coffee Shop",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Article",
+      "type": "edu.stanford.cs294s.sierra:Article",
       "name": "Article",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Chapter",
+      "type": "edu.stanford.cs294s.sierra:Chapter",
       "name": "Chapter",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:PublicationIssue",
+      "type": "edu.stanford.cs294s.sierra:PublicationIssue",
       "name": "Publication Issue",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:PublicationVolume",
+      "type": "edu.stanford.cs294s.sierra:PublicationVolume",
       "name": "Publication Volume",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Intangible",
+      "type": "edu.stanford.cs294s.sierra:Intangible",
       "name": "Intangible",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Service",
+      "type": "edu.stanford.cs294s.sierra:Service",
       "name": "Service",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:FoodService",
+      "type": "edu.stanford.cs294s.sierra:FoodService",
       "name": "Food Service",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:HowTo",
+      "type": "edu.stanford.cs294s.sierra:HowTo",
       "name": "How To",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Recipe",
+      "type": "edu.stanford.cs294s.sierra:Recipe",
       "name": "Recipe",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Game",
+      "type": "edu.stanford.cs294s.sierra:Game",
       "name": "Game",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Series",
+      "type": "edu.stanford.cs294s.sierra:Series",
       "name": "Series",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:CreativeWorkSeries",
+      "type": "edu.stanford.cs294s.sierra:CreativeWorkSeries",
       "name": "Creative Work Series",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:VideoGameSeries",
+      "type": "edu.stanford.cs294s.sierra:VideoGameSeries",
       "name": "Video Game Series",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:ListItem",
+      "type": "edu.stanford.cs294s.sierra:ListItem",
       "name": "List Item",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:HowToDirection",
+      "type": "edu.stanford.cs294s.sierra:HowToDirection",
       "name": "How To Direction",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Landform",
+      "type": "edu.stanford.cs294s.sierra:Landform",
       "name": "Landform",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Volcano",
+      "type": "edu.stanford.cs294s.sierra:Volcano",
       "name": "Volcano",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Trip",
+      "type": "edu.stanford.cs294s.sierra:Trip",
       "name": "Trip",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:TrainTrip",
+      "type": "edu.stanford.cs294s.sierra:TrainTrip",
       "name": "Train Trip",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:SportsOrganization",
+      "type": "edu.stanford.cs294s.sierra:SportsOrganization",
       "name": "Sports Organization",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:SportsTeam",
+      "type": "edu.stanford.cs294s.sierra:SportsTeam",
       "name": "Sports Team",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Store",
+      "type": "edu.stanford.cs294s.sierra:Store",
       "name": "Store",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:GroceryStore",
+      "type": "edu.stanford.cs294s.sierra:GroceryStore",
       "name": "Grocery Store",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Demand",
+      "type": "edu.stanford.cs294s.sierra:Demand",
       "name": "Demand",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:MusicComposition",
+      "type": "edu.stanford.cs294s.sierra:MusicComposition",
       "name": "Music Composition",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:WebPage",
+      "type": "edu.stanford.cs294s.sierra:WebPage",
       "name": "Web Page",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:AboutPage",
+      "type": "edu.stanford.cs294s.sierra:AboutPage",
       "name": "About Page",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Action",
+      "type": "edu.stanford.cs294s.sierra:Action",
       "name": "Action",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Book",
+      "type": "edu.stanford.cs294s.sierra:Book",
       "name": "Book",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:UserPlays",
+      "type": "edu.stanford.cs294s.sierra:UserPlays",
       "name": "User Plays",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Occupation",
+      "type": "edu.stanford.cs294s.sierra:Occupation",
       "name": "Occupation",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:SportsActivityLocation",
+      "type": "edu.stanford.cs294s.sierra:SportsActivityLocation",
       "name": "Sports Activity Location",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:CivicStructure",
+      "type": "edu.stanford.cs294s.sierra:CivicStructure",
       "name": "Civic Structure",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:StadiumOrArena",
+      "type": "edu.stanford.cs294s.sierra:StadiumOrArena",
       "name": "Stadium Or Arena",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:ConvenienceStore",
+      "type": "edu.stanford.cs294s.sierra:ConvenienceStore",
       "name": "Convenience Store",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Order",
+      "type": "edu.stanford.cs294s.sierra:Order",
       "name": "Order",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Dataset",
+      "type": "edu.stanford.cs294s.sierra:Dataset",
       "name": "Dataset",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Person",
+      "type": "edu.stanford.cs294s.sierra:Person",
       "name": "Person",
       "is_well_known": false,
       "has_ner_support": true
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:FinancialService",
+      "type": "edu.stanford.cs294s.sierra:FinancialService",
       "name": "Financial Service",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:InsuranceAgency",
+      "type": "edu.stanford.cs294s.sierra:InsuranceAgency",
       "name": "Insurance Agency",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:MediaObject",
+      "type": "edu.stanford.cs294s.sierra:MediaObject",
       "name": "Media Object",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:AudioObject",
+      "type": "edu.stanford.cs294s.sierra:AudioObject",
       "name": "Audio Object",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:MusicRecording",
+      "type": "edu.stanford.cs294s.sierra:MusicRecording",
       "name": "Music Recording",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:GeospatialGeometry",
+      "type": "edu.stanford.cs294s.sierra:GeospatialGeometry",
       "name": "Geospatial Geometry",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Reservation",
+      "type": "edu.stanford.cs294s.sierra:Reservation",
       "name": "Reservation",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:TaxiReservation",
+      "type": "edu.stanford.cs294s.sierra:TaxiReservation",
       "name": "Taxi Reservation",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Audience",
+      "type": "edu.stanford.cs294s.sierra:Audience",
       "name": "Audience",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:BroadcastChannel",
+      "type": "edu.stanford.cs294s.sierra:BroadcastChannel",
       "name": "Broadcast Channel",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:BroadcastService",
+      "type": "edu.stanford.cs294s.sierra:BroadcastService",
       "name": "Broadcast Service",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:AlignmentObject",
+      "type": "edu.stanford.cs294s.sierra:AlignmentObject",
       "name": "Alignment Object",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Product",
+      "type": "edu.stanford.cs294s.sierra:Product",
       "name": "Product",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Vehicle",
+      "type": "edu.stanford.cs294s.sierra:Vehicle",
       "name": "Vehicle",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:FoodEstablishmentReservation",
+      "type": "edu.stanford.cs294s.sierra:FoodEstablishmentReservation",
       "name": "Food Establishment Reservation",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:AutomotiveBusiness",
+      "type": "edu.stanford.cs294s.sierra:AutomotiveBusiness",
       "name": "Automotive Business",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:AutoPartsStore",
+      "type": "edu.stanford.cs294s.sierra:AutoPartsStore",
       "name": "Auto Parts Store",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:DietarySupplement",
+      "type": "edu.stanford.cs294s.sierra:DietarySupplement",
       "name": "Dietary Supplement",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Drug",
+      "type": "edu.stanford.cs294s.sierra:Drug",
       "name": "Drug",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Painting",
+      "type": "edu.stanford.cs294s.sierra:Painting",
       "name": "Painting",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:SomeProducts",
+      "type": "edu.stanford.cs294s.sierra:SomeProducts",
       "name": "Some Products",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:EntryPoint",
+      "type": "edu.stanford.cs294s.sierra:EntryPoint",
       "name": "Entry Point",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Question",
+      "type": "edu.stanford.cs294s.sierra:Question",
       "name": "Question",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Comment",
+      "type": "edu.stanford.cs294s.sierra:Comment",
       "name": "Comment",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:JewelryStore",
+      "type": "edu.stanford.cs294s.sierra:JewelryStore",
       "name": "Jewelry Store",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:WebPageElement",
+      "type": "edu.stanford.cs294s.sierra:WebPageElement",
       "name": "Web Page Element",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:WPFooter",
+      "type": "edu.stanford.cs294s.sierra:WPFooter",
       "name": "Wpfooter",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:QAPage",
+      "type": "edu.stanford.cs294s.sierra:QAPage",
       "name": "Qapage",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:HomeGoodsStore",
+      "type": "edu.stanford.cs294s.sierra:HomeGoodsStore",
       "name": "Home Goods Store",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:MonetaryGrant",
+      "type": "edu.stanford.cs294s.sierra:MonetaryGrant",
       "name": "Monetary Grant",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:PublicationEvent",
+      "type": "edu.stanford.cs294s.sierra:PublicationEvent",
       "name": "Publication Event",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Course",
+      "type": "edu.stanford.cs294s.sierra:Course",
       "name": "Course",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:EmergencyService",
+      "type": "edu.stanford.cs294s.sierra:EmergencyService",
       "name": "Emergency Service",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:PoliceStation",
+      "type": "edu.stanford.cs294s.sierra:PoliceStation",
       "name": "Police Station",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Flight",
+      "type": "edu.stanford.cs294s.sierra:Flight",
       "name": "Flight",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:DigitalDocument",
+      "type": "edu.stanford.cs294s.sierra:DigitalDocument",
       "name": "Digital Document",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:HealthAndBeautyBusiness",
+      "type": "edu.stanford.cs294s.sierra:HealthAndBeautyBusiness",
       "name": "Health And Beauty Business",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:HealthClub",
+      "type": "edu.stanford.cs294s.sierra:HealthClub",
       "name": "Health Club",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:TireShop",
+      "type": "edu.stanford.cs294s.sierra:TireShop",
       "name": "Tire Shop",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:PlaceOfWorship",
+      "type": "edu.stanford.cs294s.sierra:PlaceOfWorship",
       "name": "Place Of Worship",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Synagogue",
+      "type": "edu.stanford.cs294s.sierra:Synagogue",
       "name": "Synagogue",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:AnimalShelter",
+      "type": "edu.stanford.cs294s.sierra:AnimalShelter",
       "name": "Animal Shelter",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:WorkersUnion",
+      "type": "edu.stanford.cs294s.sierra:WorkersUnion",
       "name": "Workers Union",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:JobPosting",
+      "type": "edu.stanford.cs294s.sierra:JobPosting",
       "name": "Job Posting",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:MusicPlaylist",
+      "type": "edu.stanford.cs294s.sierra:MusicPlaylist",
       "name": "Music Playlist",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:MusicAlbum",
+      "type": "edu.stanford.cs294s.sierra:MusicAlbum",
       "name": "Music Album",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:ParcelDelivery",
+      "type": "edu.stanford.cs294s.sierra:ParcelDelivery",
       "name": "Parcel Delivery",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:EducationalOccupationalProgram",
+      "type": "edu.stanford.cs294s.sierra:EducationalOccupationalProgram",
       "name": "Educational Occupational Program",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Invoice",
+      "type": "edu.stanford.cs294s.sierra:Invoice",
       "name": "Invoice",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:EntertainmentBusiness",
+      "type": "edu.stanford.cs294s.sierra:EntertainmentBusiness",
       "name": "Entertainment Business",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:MovieTheater",
+      "type": "edu.stanford.cs294s.sierra:MovieTheater",
       "name": "Movie Theater",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Accommodation",
+      "type": "edu.stanford.cs294s.sierra:Accommodation",
       "name": "Accommodation",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Suite",
+      "type": "edu.stanford.cs294s.sierra:Suite",
       "name": "Suite",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Room",
+      "type": "edu.stanford.cs294s.sierra:Room",
       "name": "Room",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:HotelRoom",
+      "type": "edu.stanford.cs294s.sierra:HotelRoom",
       "name": "Hotel Room",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Apartment",
+      "type": "edu.stanford.cs294s.sierra:Apartment",
       "name": "Apartment",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:House",
+      "type": "edu.stanford.cs294s.sierra:House",
       "name": "House",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:SingleFamilyResidence",
+      "type": "edu.stanford.cs294s.sierra:SingleFamilyResidence",
       "name": "Single Family Residence",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:ActionAccessSpecification",
+      "type": "edu.stanford.cs294s.sierra:ActionAccessSpecification",
       "name": "Action Access Specification",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:SiteNavigationElement",
+      "type": "edu.stanford.cs294s.sierra:SiteNavigationElement",
       "name": "Site Navigation Element",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:MediaSubscription",
+      "type": "edu.stanford.cs294s.sierra:MediaSubscription",
       "name": "Media Subscription",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:VideoGame",
+      "type": "edu.stanford.cs294s.sierra:VideoGame",
       "name": "Video Game",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:OrderItem",
+      "type": "edu.stanford.cs294s.sierra:OrderItem",
       "name": "Order Item",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:LegalService",
+      "type": "edu.stanford.cs294s.sierra:LegalService",
       "name": "Legal Service",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:DigitalDocumentPermission",
+      "type": "edu.stanford.cs294s.sierra:DigitalDocumentPermission",
       "name": "Digital Document Permission",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:ProgramMembership",
+      "type": "edu.stanford.cs294s.sierra:ProgramMembership",
       "name": "Program Membership",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:VisualArtwork",
+      "type": "edu.stanford.cs294s.sierra:VisualArtwork",
       "name": "Visual Artwork",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:BodyOfWater",
+      "type": "edu.stanford.cs294s.sierra:BodyOfWater",
       "name": "Body Of Water",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:SeaBodyOfWater",
+      "type": "edu.stanford.cs294s.sierra:SeaBodyOfWater",
       "name": "Sea Body Of Water",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Attorney",
+      "type": "edu.stanford.cs294s.sierra:Attorney",
       "name": "Attorney",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Residence",
+      "type": "edu.stanford.cs294s.sierra:Residence",
       "name": "Residence",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:ApartmentComplex",
+      "type": "edu.stanford.cs294s.sierra:ApartmentComplex",
       "name": "Apartment Complex",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:HomeAndConstructionBusiness",
+      "type": "edu.stanford.cs294s.sierra:HomeAndConstructionBusiness",
       "name": "Home And Construction Business",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:HousePainter",
+      "type": "edu.stanford.cs294s.sierra:HousePainter",
       "name": "House Painter",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:MovieRentalStore",
+      "type": "edu.stanford.cs294s.sierra:MovieRentalStore",
       "name": "Movie Rental Store",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:PropertyValueSpecification",
+      "type": "edu.stanford.cs294s.sierra:PropertyValueSpecification",
       "name": "Property Value Specification",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:EducationEvent",
+      "type": "edu.stanford.cs294s.sierra:EducationEvent",
       "name": "Education Event",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:ToyStore",
+      "type": "edu.stanford.cs294s.sierra:ToyStore",
       "name": "Toy Store",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:LodgingBusiness",
+      "type": "edu.stanford.cs294s.sierra:LodgingBusiness",
       "name": "Lodging Business",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:BedAndBreakfast",
+      "type": "edu.stanford.cs294s.sierra:BedAndBreakfast",
       "name": "Bed And Breakfast",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:SportsEvent",
+      "type": "edu.stanford.cs294s.sierra:SportsEvent",
       "name": "Sports Event",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Reservoir",
+      "type": "edu.stanford.cs294s.sierra:Reservoir",
       "name": "Reservoir",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Distillery",
+      "type": "edu.stanford.cs294s.sierra:Distillery",
       "name": "Distillery",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:ServiceChannel",
+      "type": "edu.stanford.cs294s.sierra:ServiceChannel",
       "name": "Service Channel",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:CourseInstance",
+      "type": "edu.stanford.cs294s.sierra:CourseInstance",
       "name": "Course Instance",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:GovernmentOffice",
+      "type": "edu.stanford.cs294s.sierra:GovernmentOffice",
       "name": "Government Office",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:PostOffice",
+      "type": "edu.stanford.cs294s.sierra:PostOffice",
       "name": "Post Office",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:CheckoutPage",
+      "type": "edu.stanford.cs294s.sierra:CheckoutPage",
       "name": "Checkout Page",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Episode",
+      "type": "edu.stanford.cs294s.sierra:Episode",
       "name": "Episode",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:MovieSeries",
+      "type": "edu.stanford.cs294s.sierra:MovieSeries",
       "name": "Movie Series",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:VideoObject",
+      "type": "edu.stanford.cs294s.sierra:VideoObject",
       "name": "Video Object",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:CreativeWorkSeason",
+      "type": "edu.stanford.cs294s.sierra:CreativeWorkSeason",
       "name": "Creative Work Season",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:RadioSeries",
+      "type": "edu.stanford.cs294s.sierra:RadioSeries",
       "name": "Radio Series",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Clip",
+      "type": "edu.stanford.cs294s.sierra:Clip",
       "name": "Clip",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:TVSeries",
+      "type": "edu.stanford.cs294s.sierra:TVSeries",
       "name": "Tvseries",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Movie",
+      "type": "edu.stanford.cs294s.sierra:Movie",
       "name": "Movie",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:PerformingArtsTheater",
+      "type": "edu.stanford.cs294s.sierra:PerformingArtsTheater",
       "name": "Performing Arts Theater",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Museum",
+      "type": "edu.stanford.cs294s.sierra:Museum",
       "name": "Museum",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:HowToItem",
+      "type": "edu.stanford.cs294s.sierra:HowToItem",
       "name": "How To Item",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:HowToSupply",
+      "type": "edu.stanford.cs294s.sierra:HowToSupply",
       "name": "How To Supply",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:IndividualProduct",
+      "type": "edu.stanford.cs294s.sierra:IndividualProduct",
       "name": "Individual Product",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:AutoRepair",
+      "type": "edu.stanford.cs294s.sierra:AutoRepair",
       "name": "Auto Repair",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:ExerciseGym",
+      "type": "edu.stanford.cs294s.sierra:ExerciseGym",
       "name": "Exercise Gym",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:GovernmentBuilding",
+      "type": "edu.stanford.cs294s.sierra:GovernmentBuilding",
       "name": "Government Building",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Embassy",
+      "type": "edu.stanford.cs294s.sierra:Embassy",
       "name": "Embassy",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:ProfilePage",
+      "type": "edu.stanford.cs294s.sierra:ProfilePage",
       "name": "Profile Page",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:PeopleAudience",
+      "type": "edu.stanford.cs294s.sierra:PeopleAudience",
       "name": "People Audience",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:ParentAudience",
+      "type": "edu.stanford.cs294s.sierra:ParentAudience",
       "name": "Parent Audience",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:ReservationPackage",
+      "type": "edu.stanford.cs294s.sierra:ReservationPackage",
       "name": "Reservation Package",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:FinancialProduct",
+      "type": "edu.stanford.cs294s.sierra:FinancialProduct",
       "name": "Financial Product",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:SocialMediaPosting",
+      "type": "edu.stanford.cs294s.sierra:SocialMediaPosting",
       "name": "Social Media Posting",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:BlogPosting",
+      "type": "edu.stanford.cs294s.sierra:BlogPosting",
       "name": "Blog Posting",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:LiveBlogPosting",
+      "type": "edu.stanford.cs294s.sierra:LiveBlogPosting",
       "name": "Live Blog Posting",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:BusTrip",
+      "type": "edu.stanford.cs294s.sierra:BusTrip",
       "name": "Bus Trip",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:WebApplication",
+      "type": "edu.stanford.cs294s.sierra:WebApplication",
       "name": "Web Application",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:DiscussionForumPosting",
+      "type": "edu.stanford.cs294s.sierra:DiscussionForumPosting",
       "name": "Discussion Forum Posting",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:IceCreamShop",
+      "type": "edu.stanford.cs294s.sierra:IceCreamShop",
       "name": "Ice Cream Shop",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:TouristAttraction",
+      "type": "edu.stanford.cs294s.sierra:TouristAttraction",
       "name": "Tourist Attraction",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Car",
+      "type": "edu.stanford.cs294s.sierra:Car",
       "name": "Car",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:ScreeningEvent",
+      "type": "edu.stanford.cs294s.sierra:ScreeningEvent",
       "name": "Screening Event",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:BroadcastEvent",
+      "type": "edu.stanford.cs294s.sierra:BroadcastEvent",
       "name": "Broadcast Event",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Season",
+      "type": "edu.stanford.cs294s.sierra:Season",
       "name": "Season",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:LoanOrCredit",
+      "type": "edu.stanford.cs294s.sierra:LoanOrCredit",
       "name": "Loan Or Credit",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:MotorcycleDealer",
+      "type": "edu.stanford.cs294s.sierra:MotorcycleDealer",
       "name": "Motorcycle Dealer",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:BankAccount",
+      "type": "edu.stanford.cs294s.sierra:BankAccount",
       "name": "Bank Account",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:RealEstateAgent",
+      "type": "edu.stanford.cs294s.sierra:RealEstateAgent",
       "name": "Real Estate Agent",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:TechArticle",
+      "type": "edu.stanford.cs294s.sierra:TechArticle",
       "name": "Tech Article",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:APIReference",
+      "type": "edu.stanford.cs294s.sierra:APIReference",
       "name": "Apireference",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:EducationalOrganization",
+      "type": "edu.stanford.cs294s.sierra:EducationalOrganization",
       "name": "Educational Organization",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:CableOrSatelliteService",
+      "type": "edu.stanford.cs294s.sierra:CableOrSatelliteService",
       "name": "Cable Or Satellite Service",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Role",
+      "type": "edu.stanford.cs294s.sierra:Role",
       "name": "Role",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:CurrencyConversionService",
+      "type": "edu.stanford.cs294s.sierra:CurrencyConversionService",
       "name": "Currency Conversion Service",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:HinduTemple",
+      "type": "edu.stanford.cs294s.sierra:HinduTemple",
       "name": "Hindu Temple",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:TVSeason",
+      "type": "edu.stanford.cs294s.sierra:TVSeason",
       "name": "Tvseason",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:SearchResultsPage",
+      "type": "edu.stanford.cs294s.sierra:SearchResultsPage",
       "name": "Search Results Page",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:UserBlocks",
+      "type": "edu.stanford.cs294s.sierra:UserBlocks",
       "name": "User Blocks",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:DeliveryEvent",
+      "type": "edu.stanford.cs294s.sierra:DeliveryEvent",
       "name": "Delivery Event",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:DanceEvent",
+      "type": "edu.stanford.cs294s.sierra:DanceEvent",
       "name": "Dance Event",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:BookStore",
+      "type": "edu.stanford.cs294s.sierra:BookStore",
       "name": "Book Store",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:MusicRelease",
+      "type": "edu.stanford.cs294s.sierra:MusicRelease",
       "name": "Music Release",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Permit",
+      "type": "edu.stanford.cs294s.sierra:Permit",
       "name": "Permit",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:EducationalOccupationalCredential",
+      "type": "edu.stanford.cs294s.sierra:EducationalOccupationalCredential",
       "name": "Educational Occupational Credential",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:SaleEvent",
+      "type": "edu.stanford.cs294s.sierra:SaleEvent",
       "name": "Sale Event",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:FoodEvent",
+      "type": "edu.stanford.cs294s.sierra:FoodEvent",
       "name": "Food Event",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Corporation",
+      "type": "edu.stanford.cs294s.sierra:Corporation",
       "name": "Corporation",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:OutletStore",
+      "type": "edu.stanford.cs294s.sierra:OutletStore",
       "name": "Outlet Store",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Review",
+      "type": "edu.stanford.cs294s.sierra:Review",
       "name": "Review",
       "is_well_known": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:SoftwareSourceCode",
+      "type": "edu.stanford.cs294s.sierra:SoftwareSourceCode",
       "name": "Software Source Code",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:TVEpisode",
+      "type": "edu.stanford.cs294s.sierra:TVEpisode",
       "name": "Tvepisode",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:PerformingGroup",
+      "type": "edu.stanford.cs294s.sierra:PerformingGroup",
       "name": "Performing Group",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:MusicGroup",
+      "type": "edu.stanford.cs294s.sierra:MusicGroup",
       "name": "Music Group",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:AmusementPark",
+      "type": "edu.stanford.cs294s.sierra:AmusementPark",
       "name": "Amusement Park",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Message",
+      "type": "edu.stanford.cs294s.sierra:Message",
       "name": "Message",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:MobilePhoneStore",
+      "type": "edu.stanford.cs294s.sierra:MobilePhoneStore",
       "name": "Mobile Phone Store",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Casino",
+      "type": "edu.stanford.cs294s.sierra:Casino",
       "name": "Casino",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Ticket",
+      "type": "edu.stanford.cs294s.sierra:Ticket",
       "name": "Ticket",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:BusinessEvent",
+      "type": "edu.stanford.cs294s.sierra:BusinessEvent",
       "name": "Business Event",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:CampingPitch",
+      "type": "edu.stanford.cs294s.sierra:CampingPitch",
       "name": "Camping Pitch",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:GameServer",
+      "type": "edu.stanford.cs294s.sierra:GameServer",
       "name": "Game Server",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:InvestmentOrDeposit",
+      "type": "edu.stanford.cs294s.sierra:InvestmentOrDeposit",
       "name": "Investment Or Deposit",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:DepositAccount",
+      "type": "edu.stanford.cs294s.sierra:DepositAccount",
       "name": "Deposit Account",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Motel",
+      "type": "edu.stanford.cs294s.sierra:Motel",
       "name": "Motel",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:WPAdBlock",
+      "type": "edu.stanford.cs294s.sierra:WPAdBlock",
       "name": "Wpad Block",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:ChildCare",
+      "type": "edu.stanford.cs294s.sierra:ChildCare",
       "name": "Child Care",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:InternetCafe",
+      "type": "edu.stanford.cs294s.sierra:InternetCafe",
       "name": "Internet Cafe",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:MedicalOrganization",
+      "type": "edu.stanford.cs294s.sierra:MedicalOrganization",
       "name": "Medical Organization",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Pharmacy",
+      "type": "edu.stanford.cs294s.sierra:Pharmacy",
       "name": "Pharmacy",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:DefenceEstablishment",
+      "type": "edu.stanford.cs294s.sierra:DefenceEstablishment",
       "name": "Defence Establishment",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Church",
+      "type": "edu.stanford.cs294s.sierra:Church",
       "name": "Church",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:LiquorStore",
+      "type": "edu.stanford.cs294s.sierra:LiquorStore",
       "name": "Liquor Store",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:UserTweets",
+      "type": "edu.stanford.cs294s.sierra:UserTweets",
       "name": "User Tweets",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:BusinessAudience",
+      "type": "edu.stanford.cs294s.sierra:BusinessAudience",
       "name": "Business Audience",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:LodgingReservation",
+      "type": "edu.stanford.cs294s.sierra:LodgingReservation",
       "name": "Lodging Reservation",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:OrganizationRole",
+      "type": "edu.stanford.cs294s.sierra:OrganizationRole",
       "name": "Organization Role",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Airline",
+      "type": "edu.stanford.cs294s.sierra:Airline",
       "name": "Airline",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:MenuItem",
+      "type": "edu.stanford.cs294s.sierra:MenuItem",
       "name": "Menu Item",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:BikeStore",
+      "type": "edu.stanford.cs294s.sierra:BikeStore",
       "name": "Bike Store",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:BuddhistTemple",
+      "type": "edu.stanford.cs294s.sierra:BuddhistTemple",
       "name": "Buddhist Temple",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:LocationFeatureSpecification",
+      "type": "edu.stanford.cs294s.sierra:LocationFeatureSpecification",
       "name": "Location Feature Specification",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:MenuSection",
+      "type": "edu.stanford.cs294s.sierra:MenuSection",
       "name": "Menu Section",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Airport",
+      "type": "edu.stanford.cs294s.sierra:Airport",
       "name": "Airport",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:AutoRental",
+      "type": "edu.stanford.cs294s.sierra:AutoRental",
       "name": "Auto Rental",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:ProductModel",
+      "type": "edu.stanford.cs294s.sierra:ProductModel",
       "name": "Product Model",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:RentalCarReservation",
+      "type": "edu.stanford.cs294s.sierra:RentalCarReservation",
       "name": "Rental Car Reservation",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:BroadcastFrequencySpecification",
+      "type": "edu.stanford.cs294s.sierra:BroadcastFrequencySpecification",
       "name": "Broadcast Frequency Specification",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:WebSite",
+      "type": "edu.stanford.cs294s.sierra:WebSite",
       "name": "Web Site",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:EventReservation",
+      "type": "edu.stanford.cs294s.sierra:EventReservation",
       "name": "Event Reservation",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:NewsArticle",
+      "type": "edu.stanford.cs294s.sierra:NewsArticle",
       "name": "News Article",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Restaurant",
+      "type": "edu.stanford.cs294s.sierra:Restaurant",
       "name": "Restaurant",
       "is_well_known": false,
       "has_ner_support": true
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:MobileApplication",
+      "type": "edu.stanford.cs294s.sierra:MobileApplication",
       "name": "Mobile Application",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Code",
+      "type": "edu.stanford.cs294s.sierra:Code",
       "name": "Code",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:SportingGoodsStore",
+      "type": "edu.stanford.cs294s.sierra:SportingGoodsStore",
       "name": "Sporting Goods Store",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:TextDigitalDocument",
+      "type": "edu.stanford.cs294s.sierra:TextDigitalDocument",
       "name": "Text Digital Document",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Waterfall",
+      "type": "edu.stanford.cs294s.sierra:Waterfall",
       "name": "Waterfall",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:OfficeEquipmentStore",
+      "type": "edu.stanford.cs294s.sierra:OfficeEquipmentStore",
       "name": "Office Equipment Store",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:EmployeeRole",
+      "type": "edu.stanford.cs294s.sierra:EmployeeRole",
       "name": "Employee Role",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:UserComments",
+      "type": "edu.stanford.cs294s.sierra:UserComments",
       "name": "User Comments",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:GatedResidenceCommunity",
+      "type": "edu.stanford.cs294s.sierra:GatedResidenceCommunity",
       "name": "Gated Residence Community",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:AdministrativeArea",
+      "type": "edu.stanford.cs294s.sierra:AdministrativeArea",
       "name": "Administrative Area",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Country",
+      "type": "edu.stanford.cs294s.sierra:Country",
       "name": "Country",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:HowToTip",
+      "type": "edu.stanford.cs294s.sierra:HowToTip",
       "name": "How To Tip",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:ComputerLanguage",
+      "type": "edu.stanford.cs294s.sierra:ComputerLanguage",
       "name": "Computer Language",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:PerformanceRole",
+      "type": "edu.stanford.cs294s.sierra:PerformanceRole",
       "name": "Performance Role",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Brand",
+      "type": "edu.stanford.cs294s.sierra:Brand",
       "name": "Brand",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Mountain",
+      "type": "edu.stanford.cs294s.sierra:Mountain",
       "name": "Mountain",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:VideoGameClip",
+      "type": "edu.stanford.cs294s.sierra:VideoGameClip",
       "name": "Video Game Clip",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:MusicStore",
+      "type": "edu.stanford.cs294s.sierra:MusicStore",
       "name": "Music Store",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Crematorium",
+      "type": "edu.stanford.cs294s.sierra:Crematorium",
       "name": "Crematorium",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:ContactPage",
+      "type": "edu.stanford.cs294s.sierra:ContactPage",
       "name": "Contact Page",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:PresentationDigitalDocument",
+      "type": "edu.stanford.cs294s.sierra:PresentationDigitalDocument",
       "name": "Presentation Digital Document",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Blog",
+      "type": "edu.stanford.cs294s.sierra:Blog",
       "name": "Blog",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Report",
+      "type": "edu.stanford.cs294s.sierra:Report",
       "name": "Report",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Seat",
+      "type": "edu.stanford.cs294s.sierra:Seat",
       "name": "Seat",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Sculpture",
+      "type": "edu.stanford.cs294s.sierra:Sculpture",
       "name": "Sculpture",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:ComputerStore",
+      "type": "edu.stanford.cs294s.sierra:ComputerStore",
       "name": "Computer Store",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:RadioStation",
+      "type": "edu.stanford.cs294s.sierra:RadioStation",
       "name": "Radio Station",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Map",
+      "type": "edu.stanford.cs294s.sierra:Map",
       "name": "Map",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:GolfCourse",
+      "type": "edu.stanford.cs294s.sierra:GolfCourse",
       "name": "Golf Course",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:MoneyTransfer",
+      "type": "edu.stanford.cs294s.sierra:MoneyTransfer",
       "name": "Money Transfer",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:ShoeStore",
+      "type": "edu.stanford.cs294s.sierra:ShoeStore",
       "name": "Shoe Store",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:WPSideBar",
+      "type": "edu.stanford.cs294s.sierra:WPSideBar",
       "name": "Wpside Bar",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:FlightReservation",
+      "type": "edu.stanford.cs294s.sierra:FlightReservation",
       "name": "Flight Reservation",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:PetStore",
+      "type": "edu.stanford.cs294s.sierra:PetStore",
       "name": "Pet Store",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:OnDemandEvent",
+      "type": "edu.stanford.cs294s.sierra:OnDemandEvent",
       "name": "On Demand Event",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:AutoDealer",
+      "type": "edu.stanford.cs294s.sierra:AutoDealer",
       "name": "Auto Dealer",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:PhysicalActivity",
+      "type": "edu.stanford.cs294s.sierra:PhysicalActivity",
       "name": "Physical Activity",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:ClaimReview",
+      "type": "edu.stanford.cs294s.sierra:ClaimReview",
       "name": "Claim Review",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:GasStation",
+      "type": "edu.stanford.cs294s.sierra:GasStation",
       "name": "Gas Station",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Library",
+      "type": "edu.stanford.cs294s.sierra:Library",
       "name": "Library",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:TouristInformationCenter",
+      "type": "edu.stanford.cs294s.sierra:TouristInformationCenter",
       "name": "Tourist Information Center",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:ProfessionalService",
+      "type": "edu.stanford.cs294s.sierra:ProfessionalService",
       "name": "Professional Service",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Aquarium",
+      "type": "edu.stanford.cs294s.sierra:Aquarium",
       "name": "Aquarium",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:SelfStorage",
+      "type": "edu.stanford.cs294s.sierra:SelfStorage",
       "name": "Self Storage",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Florist",
+      "type": "edu.stanford.cs294s.sierra:Florist",
       "name": "Florist",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:HowToTool",
+      "type": "edu.stanford.cs294s.sierra:HowToTool",
       "name": "How To Tool",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:UserPlusOnes",
+      "type": "edu.stanford.cs294s.sierra:UserPlusOnes",
       "name": "User Plus Ones",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:UserPageVisits",
+      "type": "edu.stanford.cs294s.sierra:UserPageVisits",
       "name": "User Page Visits",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Mosque",
+      "type": "edu.stanford.cs294s.sierra:Mosque",
       "name": "Mosque",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:DataFeed",
+      "type": "edu.stanford.cs294s.sierra:DataFeed",
       "name": "Data Feed",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Continent",
+      "type": "edu.stanford.cs294s.sierra:Continent",
       "name": "Continent",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:ShoppingCenter",
+      "type": "edu.stanford.cs294s.sierra:ShoppingCenter",
       "name": "Shopping Center",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:NightClub",
+      "type": "edu.stanford.cs294s.sierra:NightClub",
       "name": "Night Club",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:State",
+      "type": "edu.stanford.cs294s.sierra:State",
       "name": "State",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Playground",
+      "type": "edu.stanford.cs294s.sierra:Playground",
       "name": "Playground",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:ParkingFacility",
+      "type": "edu.stanford.cs294s.sierra:ParkingFacility",
       "name": "Parking Facility",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:BookSeries",
+      "type": "edu.stanford.cs294s.sierra:BookSeries",
       "name": "Book Series",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:BeautySalon",
+      "type": "edu.stanford.cs294s.sierra:BeautySalon",
       "name": "Beauty Salon",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:UserDownloads",
+      "type": "edu.stanford.cs294s.sierra:UserDownloads",
       "name": "User Downloads",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:PawnShop",
+      "type": "edu.stanford.cs294s.sierra:PawnShop",
       "name": "Pawn Shop",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:HighSchool",
+      "type": "edu.stanford.cs294s.sierra:HighSchool",
       "name": "High School",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:SportsClub",
+      "type": "edu.stanford.cs294s.sierra:SportsClub",
       "name": "Sports Club",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Bridge",
+      "type": "edu.stanford.cs294s.sierra:Bridge",
       "name": "Bridge",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:TrainStation",
+      "type": "edu.stanford.cs294s.sierra:TrainStation",
       "name": "Train Station",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Conversation",
+      "type": "edu.stanford.cs294s.sierra:Conversation",
       "name": "Conversation",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:LinkRole",
+      "type": "edu.stanford.cs294s.sierra:LinkRole",
       "name": "Link Role",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:TouristDestination",
+      "type": "edu.stanford.cs294s.sierra:TouristDestination",
       "name": "Tourist Destination",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:TouristTrip",
+      "type": "edu.stanford.cs294s.sierra:TouristTrip",
       "name": "Tourist Trip",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:PaymentService",
+      "type": "edu.stanford.cs294s.sierra:PaymentService",
       "name": "Payment Service",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:SpeakableSpecification",
+      "type": "edu.stanford.cs294s.sierra:SpeakableSpecification",
       "name": "Speakable Specification",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:RadioChannel",
+      "type": "edu.stanford.cs294s.sierra:RadioChannel",
       "name": "Radio Channel",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:AMRadioChannel",
+      "type": "edu.stanford.cs294s.sierra:AMRadioChannel",
       "name": "Amradio Channel",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:AutoBodyShop",
+      "type": "edu.stanford.cs294s.sierra:AutoBodyShop",
       "name": "Auto Body Shop",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:School",
+      "type": "edu.stanford.cs294s.sierra:School",
       "name": "School",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:TelevisionStation",
+      "type": "edu.stanford.cs294s.sierra:TelevisionStation",
       "name": "Television Station",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:LakeBodyOfWater",
+      "type": "edu.stanford.cs294s.sierra:LakeBodyOfWater",
       "name": "Lake Body Of Water",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:MusicVideoObject",
+      "type": "edu.stanford.cs294s.sierra:MusicVideoObject",
       "name": "Music Video Object",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:HobbyShop",
+      "type": "edu.stanford.cs294s.sierra:HobbyShop",
       "name": "Hobby Shop",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Beach",
+      "type": "edu.stanford.cs294s.sierra:Beach",
       "name": "Beach",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:SpreadsheetDigitalDocument",
+      "type": "edu.stanford.cs294s.sierra:SpreadsheetDigitalDocument",
       "name": "Spreadsheet Digital Document",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:WPHeader",
+      "type": "edu.stanford.cs294s.sierra:WPHeader",
       "name": "Wpheader",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:LandmarksOrHistoricalBuildings",
+      "type": "edu.stanford.cs294s.sierra:LandmarksOrHistoricalBuildings",
       "name": "Landmarks Or Historical Buildings",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Notary",
+      "type": "edu.stanford.cs294s.sierra:Notary",
       "name": "Notary",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:DryCleaningOrLaundry",
+      "type": "edu.stanford.cs294s.sierra:DryCleaningOrLaundry",
       "name": "Dry Cleaning Or Laundry",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:FastFoodRestaurant",
+      "type": "edu.stanford.cs294s.sierra:FastFoodRestaurant",
       "name": "Fast Food Restaurant",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:DataFeedItem",
+      "type": "edu.stanford.cs294s.sierra:DataFeedItem",
       "name": "Data Feed Item",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Park",
+      "type": "edu.stanford.cs294s.sierra:Park",
       "name": "Park",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Zoo",
+      "type": "edu.stanford.cs294s.sierra:Zoo",
       "name": "Zoo",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:ComedyClub",
+      "type": "edu.stanford.cs294s.sierra:ComedyClub",
       "name": "Comedy Club",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:ExhibitionEvent",
+      "type": "edu.stanford.cs294s.sierra:ExhibitionEvent",
       "name": "Exhibition Event",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:EmploymentAgency",
+      "type": "edu.stanford.cs294s.sierra:EmploymentAgency",
       "name": "Employment Agency",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:FireStation",
+      "type": "edu.stanford.cs294s.sierra:FireStation",
       "name": "Fire Station",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Hotel",
+      "type": "edu.stanford.cs294s.sierra:Hotel",
       "name": "Hotel",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:RadioClip",
+      "type": "edu.stanford.cs294s.sierra:RadioClip",
       "name": "Radio Clip",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:ElectronicsStore",
+      "type": "edu.stanford.cs294s.sierra:ElectronicsStore",
       "name": "Electronics Store",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:TVClip",
+      "type": "edu.stanford.cs294s.sierra:TVClip",
       "name": "Tvclip",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:NailSalon",
+      "type": "edu.stanford.cs294s.sierra:NailSalon",
       "name": "Nail Salon",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:GeneralContractor",
+      "type": "edu.stanford.cs294s.sierra:GeneralContractor",
       "name": "General Contractor",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:TelevisionChannel",
+      "type": "edu.stanford.cs294s.sierra:TelevisionChannel",
       "name": "Television Channel",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:CollectionPage",
+      "type": "edu.stanford.cs294s.sierra:CollectionPage",
       "name": "Collection Page",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Menu",
+      "type": "edu.stanford.cs294s.sierra:Menu",
       "name": "Menu",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Periodical",
+      "type": "edu.stanford.cs294s.sierra:Periodical",
       "name": "Periodical",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:BedDetails",
+      "type": "edu.stanford.cs294s.sierra:BedDetails",
       "name": "Bed Details",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Electrician",
+      "type": "edu.stanford.cs294s.sierra:Electrician",
       "name": "Electrician",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:LegislativeBuilding",
+      "type": "edu.stanford.cs294s.sierra:LegislativeBuilding",
       "name": "Legislative Building",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:UserCheckins",
+      "type": "edu.stanford.cs294s.sierra:UserCheckins",
       "name": "User Checkins",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:TravelAgency",
+      "type": "edu.stanford.cs294s.sierra:TravelAgency",
       "name": "Travel Agency",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Hostel",
+      "type": "edu.stanford.cs294s.sierra:Hostel",
       "name": "Hostel",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Quantity",
+      "type": "edu.stanford.cs294s.sierra:Quantity",
       "name": "Quantity",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:VideoGallery",
+      "type": "edu.stanford.cs294s.sierra:VideoGallery",
       "name": "Video Gallery",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:EducationalAudience",
+      "type": "edu.stanford.cs294s.sierra:EducationalAudience",
       "name": "Educational Audience",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:CityHall",
+      "type": "edu.stanford.cs294s.sierra:CityHall",
       "name": "City Hall",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:ComedyEvent",
+      "type": "edu.stanford.cs294s.sierra:ComedyEvent",
       "name": "Comedy Event",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:ItemPage",
+      "type": "edu.stanford.cs294s.sierra:ItemPage",
       "name": "Item Page",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:MovingCompany",
+      "type": "edu.stanford.cs294s.sierra:MovingCompany",
       "name": "Moving Company",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:GardenStore",
+      "type": "edu.stanford.cs294s.sierra:GardenStore",
       "name": "Garden Store",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:HealthInsurancePlan",
+      "type": "edu.stanford.cs294s.sierra:HealthInsurancePlan",
       "name": "Health Insurance Plan",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Audiobook",
+      "type": "edu.stanford.cs294s.sierra:Audiobook",
       "name": "Audiobook",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Dentist",
+      "type": "edu.stanford.cs294s.sierra:Dentist",
       "name": "Dentist",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:AdultEntertainment",
+      "type": "edu.stanford.cs294s.sierra:AdultEntertainment",
       "name": "Adult Entertainment",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:DataCatalog",
+      "type": "edu.stanford.cs294s.sierra:DataCatalog",
       "name": "Data Catalog",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:City",
+      "type": "edu.stanford.cs294s.sierra:City",
       "name": "City",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:WorkBasedProgram",
+      "type": "edu.stanford.cs294s.sierra:WorkBasedProgram",
       "name": "Work Based Program",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:MusicEvent",
+      "type": "edu.stanford.cs294s.sierra:MusicEvent",
       "name": "Music Event",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:HairSalon",
+      "type": "edu.stanford.cs294s.sierra:HairSalon",
       "name": "Hair Salon",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:DaySpa",
+      "type": "edu.stanford.cs294s.sierra:DaySpa",
       "name": "Day Spa",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:EventVenue",
+      "type": "edu.stanford.cs294s.sierra:EventVenue",
       "name": "Event Venue",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:RadioEpisode",
+      "type": "edu.stanford.cs294s.sierra:RadioEpisode",
       "name": "Radio Episode",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:ElementarySchool",
+      "type": "edu.stanford.cs294s.sierra:ElementarySchool",
       "name": "Elementary School",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:BankOrCreditUnion",
+      "type": "edu.stanford.cs294s.sierra:BankOrCreditUnion",
       "name": "Bank Or Credit Union",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:FAQPage",
+      "type": "edu.stanford.cs294s.sierra:FAQPage",
       "name": "Faqpage",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Winery",
+      "type": "edu.stanford.cs294s.sierra:Winery",
       "name": "Winery",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:MeetingRoom",
+      "type": "edu.stanford.cs294s.sierra:MeetingRoom",
       "name": "Meeting Room",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:RiverBodyOfWater",
+      "type": "edu.stanford.cs294s.sierra:RiverBodyOfWater",
       "name": "River Body Of Water",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:HVACBusiness",
+      "type": "edu.stanford.cs294s.sierra:HVACBusiness",
       "name": "Hvacbusiness",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:TaxiStand",
+      "type": "edu.stanford.cs294s.sierra:TaxiStand",
       "name": "Taxi Stand",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:CatholicChurch",
+      "type": "edu.stanford.cs294s.sierra:CatholicChurch",
       "name": "Catholic Church",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:GovernmentService",
+      "type": "edu.stanford.cs294s.sierra:GovernmentService",
       "name": "Government Service",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:MovieClip",
+      "type": "edu.stanford.cs294s.sierra:MovieClip",
       "name": "Movie Clip",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Locksmith",
+      "type": "edu.stanford.cs294s.sierra:Locksmith",
       "name": "Locksmith",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:OceanBodyOfWater",
+      "type": "edu.stanford.cs294s.sierra:OceanBodyOfWater",
       "name": "Ocean Body Of Water",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:TrainReservation",
+      "type": "edu.stanford.cs294s.sierra:TrainReservation",
       "name": "Train Reservation",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:MusicVenue",
+      "type": "edu.stanford.cs294s.sierra:MusicVenue",
       "name": "Music Venue",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:CollegeOrUniversity",
+      "type": "edu.stanford.cs294s.sierra:CollegeOrUniversity",
       "name": "College Or University",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:TaxiService",
+      "type": "edu.stanford.cs294s.sierra:TaxiService",
       "name": "Taxi Service",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:ArtGallery",
+      "type": "edu.stanford.cs294s.sierra:ArtGallery",
       "name": "Art Gallery",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Plumber",
+      "type": "edu.stanford.cs294s.sierra:Plumber",
       "name": "Plumber",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Preschool",
+      "type": "edu.stanford.cs294s.sierra:Preschool",
       "name": "Preschool",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:TattooParlor",
+      "type": "edu.stanford.cs294s.sierra:TattooParlor",
       "name": "Tattoo Parlor",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:FurnitureStore",
+      "type": "edu.stanford.cs294s.sierra:FurnitureStore",
       "name": "Furniture Store",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:BusStop",
+      "type": "edu.stanford.cs294s.sierra:BusStop",
       "name": "Bus Stop",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:MotorcycleRepair",
+      "type": "edu.stanford.cs294s.sierra:MotorcycleRepair",
       "name": "Motorcycle Repair",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:GovernmentPermit",
+      "type": "edu.stanford.cs294s.sierra:GovernmentPermit",
       "name": "Government Permit",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Resort",
+      "type": "edu.stanford.cs294s.sierra:Resort",
       "name": "Resort",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Table",
+      "type": "edu.stanford.cs294s.sierra:Table",
       "name": "Table",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:GovernmentOrganization",
+      "type": "edu.stanford.cs294s.sierra:GovernmentOrganization",
       "name": "Government Organization",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:BusReservation",
+      "type": "edu.stanford.cs294s.sierra:BusReservation",
       "name": "Bus Reservation",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Taxi",
+      "type": "edu.stanford.cs294s.sierra:Taxi",
       "name": "Taxi",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Physician",
+      "type": "edu.stanford.cs294s.sierra:Physician",
       "name": "Physician",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:NoteDigitalDocument",
+      "type": "edu.stanford.cs294s.sierra:NoteDigitalDocument",
       "name": "Note Digital Document",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Campground",
+      "type": "edu.stanford.cs294s.sierra:Campground",
       "name": "Campground",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:TennisComplex",
+      "type": "edu.stanford.cs294s.sierra:TennisComplex",
       "name": "Tennis Complex",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Photograph",
+      "type": "edu.stanford.cs294s.sierra:Photograph",
       "name": "Photograph",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:SubwayStation",
+      "type": "edu.stanford.cs294s.sierra:SubwayStation",
       "name": "Subway Station",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:MedicalStudy",
+      "type": "edu.stanford.cs294s.sierra:MedicalStudy",
       "name": "Medical Study",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Grant",
+      "type": "edu.stanford.cs294s.sierra:Grant",
       "name": "Grant",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Courthouse",
+      "type": "edu.stanford.cs294s.sierra:Courthouse",
       "name": "Courthouse",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:AutoWash",
+      "type": "edu.stanford.cs294s.sierra:AutoWash",
       "name": "Auto Wash",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:HardwareStore",
+      "type": "edu.stanford.cs294s.sierra:HardwareStore",
       "name": "Hardware Store",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:VisualArtsEvent",
+      "type": "edu.stanford.cs294s.sierra:VisualArtsEvent",
       "name": "Visual Arts Event",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:ExchangeRateSpecification",
+      "type": "edu.stanford.cs294s.sierra:ExchangeRateSpecification",
       "name": "Exchange Rate Specification",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:DanceGroup",
+      "type": "edu.stanford.cs294s.sierra:DanceGroup",
       "name": "Dance Group",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:RoofingContractor",
+      "type": "edu.stanford.cs294s.sierra:RoofingContractor",
       "name": "Roofing Contractor",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:ChildrensEvent",
+      "type": "edu.stanford.cs294s.sierra:ChildrensEvent",
       "name": "Childrens Event",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:RVPark",
+      "type": "edu.stanford.cs294s.sierra:RVPark",
       "name": "Rvpark",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Enumeration",
+      "type": "edu.stanford.cs294s.sierra:Enumeration",
       "name": "Enumeration",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:WholesaleStore",
+      "type": "edu.stanford.cs294s.sierra:WholesaleStore",
       "name": "Wholesale Store",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:DepartmentStore",
+      "type": "edu.stanford.cs294s.sierra:DepartmentStore",
       "name": "Department Store",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:SkiResort",
+      "type": "edu.stanford.cs294s.sierra:SkiResort",
       "name": "Ski Resort",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:AutomatedTeller",
+      "type": "edu.stanford.cs294s.sierra:AutomatedTeller",
       "name": "Automated Teller",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Canal",
+      "type": "edu.stanford.cs294s.sierra:Canal",
       "name": "Canal",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:NGO",
+      "type": "edu.stanford.cs294s.sierra:NGO",
       "name": "Ngo",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:BarOrPub",
+      "type": "edu.stanford.cs294s.sierra:BarOrPub",
       "name": "Bar Or Pub",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:FMRadioChannel",
+      "type": "edu.stanford.cs294s.sierra:FMRadioChannel",
       "name": "Fmradio Channel",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:ScholarlyArticle",
+      "type": "edu.stanford.cs294s.sierra:ScholarlyArticle",
       "name": "Scholarly Article",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Bakery",
+      "type": "edu.stanford.cs294s.sierra:Bakery",
       "name": "Bakery",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:MensClothingStore",
+      "type": "edu.stanford.cs294s.sierra:MensClothingStore",
       "name": "Mens Clothing Store",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Language",
+      "type": "edu.stanford.cs294s.sierra:Language",
       "name": "Language",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:TheaterGroup",
+      "type": "edu.stanford.cs294s.sierra:TheaterGroup",
       "name": "Theater Group",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Answer",
+      "type": "edu.stanford.cs294s.sierra:Answer",
       "name": "Answer",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Brewery",
+      "type": "edu.stanford.cs294s.sierra:Brewery",
       "name": "Brewery",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:PublicSwimmingPool",
+      "type": "edu.stanford.cs294s.sierra:PublicSwimmingPool",
       "name": "Public Swimming Pool",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Cemetery",
+      "type": "edu.stanford.cs294s.sierra:Cemetery",
       "name": "Cemetery",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:AccountingService",
+      "type": "edu.stanford.cs294s.sierra:AccountingService",
       "name": "Accounting Service",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:RecyclingCenter",
+      "type": "edu.stanford.cs294s.sierra:RecyclingCenter",
       "name": "Recycling Center",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Hospital",
+      "type": "edu.stanford.cs294s.sierra:Hospital",
       "name": "Hospital",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Festival",
+      "type": "edu.stanford.cs294s.sierra:Festival",
       "name": "Festival",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:ClothingStore",
+      "type": "edu.stanford.cs294s.sierra:ClothingStore",
       "name": "Clothing Store",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:RadioSeason",
+      "type": "edu.stanford.cs294s.sierra:RadioSeason",
       "name": "Radio Season",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:EmailMessage",
+      "type": "edu.stanford.cs294s.sierra:EmailMessage",
       "name": "Email Message",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:BusStation",
+      "type": "edu.stanford.cs294s.sierra:BusStation",
       "name": "Bus Station",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:BowlingAlley",
+      "type": "edu.stanford.cs294s.sierra:BowlingAlley",
       "name": "Bowling Alley",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:ImageGallery",
+      "type": "edu.stanford.cs294s.sierra:ImageGallery",
       "name": "Image Gallery",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:DataDownload",
+      "type": "edu.stanford.cs294s.sierra:DataDownload",
       "name": "Data Download",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:MiddleSchool",
+      "type": "edu.stanford.cs294s.sierra:MiddleSchool",
       "name": "Middle School",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:LiteraryEvent",
+      "type": "edu.stanford.cs294s.sierra:LiteraryEvent",
       "name": "Literary Event",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:Pond",
+      "type": "edu.stanford.cs294s.sierra:Pond",
       "name": "Pond",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:SocialEvent",
+      "type": "edu.stanford.cs294s.sierra:SocialEvent",
       "name": "Social Event",
       "is_well_known": false,
       "has_ner_support": false
     },
     {
-      "type": "edu.stanford.cs294s.sierrakn:TheaterEvent",
+      "type": "edu.stanford.cs294s.sierra:TheaterEvent",
       "name": "Theater Event",
       "is_well_known": false,
       "has_ner_support": false

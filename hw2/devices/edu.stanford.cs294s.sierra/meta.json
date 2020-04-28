@@ -1,0 +1,80 @@
+{
+  "Thing": {
+    "extends": [],
+    "fields": {
+      "url": {
+        "isArray": false,
+        "type": "tt:Entity"
+      },
+      "image": {
+        "isArray": false,
+        "type": "tt:Entity"
+      }
+    }
+  },
+  "CreativeWork": {
+    "extends": [
+      "Thing"
+    ],
+    "fields": {
+      "aggregateRating": {
+        "isArray": false,
+        "type": {
+          "reviewCount": {
+            "isArray": false,
+            "type": "tt:Number"
+          },
+          "ratingCount": {
+            "isArray": false,
+            "type": "tt:Number"
+          },
+          "ratingValue": {
+            "isArray": false,
+            "type": "tt:Number"
+          }
+        }
+      },
+      "award": {
+        "isArray": true,
+        "type": "tt:String"
+      },
+      "inLanguage": {
+        "isArray": false,
+        "type": "tt:String"
+      },
+      "author": {
+        "isArray": false,
+        "type": "Person"
+      }
+    }
+  },
+  "Book": {
+    "extends": [
+      "CreativeWork"
+    ],
+    "fields": {
+      "isbn": {
+        "isArray": false,
+        "type": "tt:String"
+      },
+      "bookEdition": {
+        "isArray": false,
+        "type": "tt:String"
+      },
+      "bookFormat": {
+        "isArray": false,
+        "type": "tt:Enum(EBook,Ebook,Audiobook,AudiobookFormat,AudioCD,Hardcover,Paperback,MP3CD,KindleEdition,AudibleAudio,MassMarketPaperback,LibraryBinding,Nook,Poche)"
+      },
+      "numberOfPages": {
+        "isArray": false,
+        "type": "tt:Number"
+      }
+    }
+  },
+  "Person": {
+    "extends": [
+      "Thing"
+    ],
+    "fields": {}
+  }
+}

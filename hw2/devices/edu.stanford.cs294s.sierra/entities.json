@@ -1,0 +1,11 @@
+{
+  "result": "ok",
+  "data": [
+    {
+      "type": "edu.stanford.cs294s.sierra:Book",
+      "name": "Book",
+      "is_well_known": false,
+      "has_ner_support": true
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 geniedir ?= /Users/sierrakaplan-nelson/Documents/COLLEGE/Spring2020/CS294S/cs294-homework-workdir/hw1/genie-toolkit
 developer_key ?= 0beeb145cbcef8a1d9a7928d6cd5bb2095db1e58912b494e5e3882ec7dc4d502
 access_token ?= eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0MWIyODFkMzVkYWViMjFjIiwiYXVkIjoib2F1dGgyIiwic2NvcGUiOlsicHJvZmlsZSIsInVzZXItcmVhZCIsInVzZXItcmVhZC1yZXN1bHRzIiwidXNlci1leGVjLWNvbW1hbmQiLCJ1c2VyLXN5bmMiLCJkZXZlbG9wZXItcmVhZCIsImRldmVsb3Blci11cGxvYWQiLCJkZXZlbG9wZXItYWRtaW4iXSwiaWF0IjoxNTg2OTYxMjExLCJleHAiOjE1ODk1NTMyMTF9.zMF9-rJN5V8sSXoC6iUNqC9logt7Ix0qObFtyf02G2Q
-owner ?= sierrakn
+owner ?= sierra
 
 thingpedia ?= thingpedia
 memsize := 3072
