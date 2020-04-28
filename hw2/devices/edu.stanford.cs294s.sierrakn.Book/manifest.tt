@@ -18,10 +18,10 @@ class @edu.stanford.cs294s.sierrakn.Book
   list query CreativeWork extends Thing(out id: Entity(edu.stanford.cs294s.sierrakn.Book:CreativeWork) 
   #[unique=true] 
   #[string_values="edu.stanford.cs294s.sierrakn.Book:name"]
-                        #_[canonical={
+      #_[canonical={
                           base=["name"],
                           property=[]
-                        }], #[filterable=false] #[org_schema_has_data=true],
+                        }] #[filterable=false] #[org_schema_has_data=true],
                                         out aggregateRating: {
                                           reviewCount: Number #_[canonical={
                                               base=["number of reviews"]

@@ -21,7 +21,7 @@ class @edu.stanford.cs294s.sierrakn.Book
                         #_[canonical={
                           base=["name"],
                           property=[]
-                        }], #[filterable=false] #[org_schema_has_data=true],
+                        }] #[filterable=false] #[org_schema_has_data=true],
                                         out aggregateRating: {
                                           reviewCount: Number #_[canonical={
                                               base=["number of reviews"]
