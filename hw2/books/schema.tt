@@ -46,7 +46,7 @@ class @edu.stanford.cs294s.sierrakn.Book
   #[org_schema_has_data=true]
   #[org_schema_has_name=true];
 
-  list query Book extends CreativeWork(out id: Entity(edu.stanford.cs294s.sierrakn.Book.Book:Book) #[unique=true] #[filterable=false] #[org_schema_has_data=true],
+  list query Book extends CreativeWork(out id: Entity(edu.stanford.cs294s.sierrakn.Book:Book) #[unique=true] #[filterable=false] #[org_schema_has_data=true],
                                        out isbn: String #_[canonical={passive_verb=["isbn"],base=["isbn"]}] #[org_schema_type="Text"] #[string_values="edu.stanford.cs294s.sierrakn.Book:Book_isbn"] #[org_schema_has_data=true],
                                        out bookEdition: String #_[canonical={base=["book edition"]}] #[org_schema_type="Text"] #[string_values="edu.stanford.cs294s.sierrakn.Book:Book_bookEdition"] #[org_schema_has_data=true],
                                        out bookFormat: Enum(EBook,AudiobookFormat,Hardcover,Paperback) #_[canonical={base=["book format"]}] #[org_schema_type="BookFormatType"] #[org_schema_has_data=true],
