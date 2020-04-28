@@ -76,44 +76,4 @@ class @edu.stanford.cs294s.sierrakn.Book
   #[org_schema_has_data=true]
   #[org_schema_has_name=true];
 
-  action buy_book(in req book : Entity(edu.stanford.cs294s.sierrakn.Book:Book)
-                          #[string_values="edu.stanford.cs294s.sierrakn.Book:name"]
-                          #_[prompt="What book would you like to buy?"],
-                          in req author : Person
-                          #_[prompt=["who is the book by",
-                                     "by which author",
-                                     "who wrote the book"]]
-                          #_[canonical={
-                            default="passive_verb",
-                            base=["author"],
-                            passive_verb = ["written by #", "by #"]
-                          }],
-                          in req book_seller : Enum(amazon, barnesandnoble)
-                          #_[prompt=["where do you want to buy your book",
-                                     "which website should I use to purchase your book"
-                                     ]]
-                          #_[canonical={
-                            default="base",
-                            base=["book seller", "website", "online bookstore", "bookstore"]
-                          }],
-                          in req address : String
-                          #_[prompt=["where should I send this book",
-                                     "to which address would you like me to deliver the book",
-                                     "which address should I use as the shipping address"]]
-                          #_[canonical={
-                            default="base",
-                            base=["address"],
-                            preposition=["to #"]
-                          }],
-                          out order_number : String
-                          #_[canonical={
-                            default="base",
-                            base=["order number", "confirmation number"]
-                          }])
-  #_[confirmation="buy ${book}"]
-  #[confirm=false]
-  #_[on_error={
-     no_copies_available=["there are no more copies available of ${book}"],
-     purchase_error=["An error occurred while trying to purchase ${book}."]
-  }];
 }
