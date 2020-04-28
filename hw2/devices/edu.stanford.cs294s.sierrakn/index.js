@@ -12,7 +12,7 @@
 const Tp = require('thingpedia');
 
 const META = require('./meta.json');
-const DATA = require('./data.json');
+const DATA = require('./books_db.json');
 
 function parseTime(value) {
     const [, hour, minute, second] = /^([0-9]{2}):([0-9]{2})(?::([0-9]{2}))?$/.exec(value);
