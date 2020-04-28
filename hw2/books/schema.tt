@@ -71,7 +71,7 @@ class @edu.stanford.cs294s.sierrakn.Book
   #[org_schema_has_name=true];
 
   action buy_book(in req book : Entity(edu.stanford.cs294s.sierrakn.Book:Book)
-                          #[string_values="edu.stanford.cs294s.sierrakn.Book:Book:name"]
+                          #[string_values="edu.stanford.cs294s.sierrakn.Book:name"]
                           #_[prompt="What book would you like to buy?"],
                           in req author : Person
                           #_[prompt=["who is the book by",
