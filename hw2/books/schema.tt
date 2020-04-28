@@ -80,7 +80,7 @@ class @edu.stanford.cs294s.sierrakn.Book
                           #_[canonical={
                             default="passive_verb",
                             base=["author"],
-                            passive_verb = ["written by #", "by #"],
+                            passive_verb = ["written by #", "by #"]
                           }],
                           in req book_seller : Enum(amazon, barnesandnoble)
                           #_[prompt=["where do you want to buy your book",
@@ -88,7 +88,7 @@ class @edu.stanford.cs294s.sierrakn.Book
                                      ]]
                           #_[canonical={
                             default="base",
-                            base=["book seller", "website", "online bookstore", "bookstore"],
+                            base=["book seller", "website", "online bookstore", "bookstore"]
                           }],
                           in req address : String
                           #_[prompt=["where should I send this book",
