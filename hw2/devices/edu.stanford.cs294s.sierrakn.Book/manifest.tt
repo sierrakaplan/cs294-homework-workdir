@@ -1,0 +1,113 @@
+class @edu.stanford.cs294s.sierrakn
+#_[name="sierrakn in Schema.org"]
+#_[description="Scraped data from websites that support schema.org"]
+#[whitelist=["Book", "Review", "Person"]] {
+  import loader from @org.thingpedia.v2();
+  import config from @org.thingpedia.config.none();
+
+  list query Thing(out id: Entity(edu.stanford.cs294s.sierrakn:Thing) #[unique=true] #[filterable=false] #[org_schema_has_data=true],
+                   out url: Entity(tt:url) #_[canonical={base=["url", "link"]}] #[org_schema_type="URL"] #[org_schema_has_data=true],
+                   out image: Entity(tt:picture) #_[canonical={base=["image"]}] #[org_schema_type="URL"] #[org_schema_has_data=true])
+  #_[canonical="thing"]
+  #_[confirmation="thing"]
+  #[confirm=false]
+  #[minimal_projection=["id"]]
+  #[org_schema_has_data=true]
+  #[org_schema_has_name=true];
+
+  list query CreativeWork extends Thing(out id: Entity(edu.stanford.cs294s.sierrakn:CreativeWork) #[unique=true] #[filterable=false] #[org_schema_has_data=true],
+                                        out aggregateRating: {
+                                          reviewCount: Number #_[canonical={
+                                              base=["number of reviews"]
+                                            }] #[org_schema_type="Integer"] #[org_schema_has_data=true],
+                                          ratingCount: Number #_[canonical={
+                                              base=["number of ratings"]
+                                            }] #[org_schema_type="Integer"] #[org_schema_has_data=true],
+                                          ratingValue: Number #_[canonical={
+                                              base=["rating"],
+                                              adjective = ["#-star"]
+                                            }] #[org_schema_type="Number"] #[org_schema_has_data=true]
+                                        } #_[canonical={base=["aggregate rating"]}] #[org_schema_type="AggregateRating"] #[org_schema_has_data=true],
+                                        out award: Array(String) #_[canonical={base=["awards"]}] #[org_schema_type="Text"] #[string_values="edu.stanford.cs294s.sierrakn:CreativeWork_award"] #[org_schema_has_data=true],
+                                        out inLanguage: String #_[canonical={
+                                            base=["language"],
+                                            adjective = ["#"],
+                                            reverse_property = ["in #"]
+              }] #[org_schema_type="Text"] #[string_values="edu.stanford.cs294s.sierrakn:CreativeWork_inLanguage"] #[org_schema_has_data=true],
+                                        out author: Entity(edu.stanford.cs294s.sierrakn:Person) #_[canonical={
+                                            base=["author"],
+                                            passive_verb = ["written by #"],
+                                            verb = ["# wrote"]
+              }] #[org_schema_type="Person"] #[org_schema_has_data=true])
+  #_[canonical="creative work"]
+  #_[confirmation="creative work"]
+  #[confirm=false]
+  #[minimal_projection=["id"]]
+  #[org_schema_has_data=true]
+  #[org_schema_has_name=true];
+
+  list query Book extends CreativeWork(out id: Entity(edu.stanford.cs294s.sierrakn:Book) #[unique=true] #[filterable=false] #[org_schema_has_data=true],
+                                       out isbn: String #_[canonical={passive_verb=["isbn"],base=["isbn"]}] #[org_schema_type="Text"] #[string_values="edu.stanford.cs294s.sierrakn:Book_isbn"] #[org_schema_has_data=true],
+                                       out bookEdition: String #_[canonical={base=["book edition"]}] #[org_schema_type="Text"] #[string_values="edu.stanford.cs294s.sierrakn:Book_bookEdition"] #[org_schema_has_data=true],
+                                       out bookFormat: Enum(EBook,AudiobookFormat,Hardcover,Paperback) #_[canonical={base=["book format"]}] #[org_schema_type="BookFormatType"] #[org_schema_has_data=true],
+                                       out numberOfPages: Number #_[canonical={
+                                           base=["number of pages"],
+                                           adjective = ["# page"],
+                                           property = ["# pages"]
+              }] #[org_schema_type="Integer"] #[org_schema_has_data=true])
+  #_[canonical="book"]
+  #_[confirmation="book"]
+  #[confirm=false]
+  #[minimal_projection=["id"]]
+  #[org_schema_has_data=true]
+  #[org_schema_has_name=true];
+
+  list query Person extends Thing(out id: Entity(edu.stanford.cs294s.sierrakn:Person) #[unique=true] #[filterable=false] #[org_schema_has_data=true])
+  #_[canonical="person"]
+  #_[confirmation="person"]
+  #[confirm=false]
+  #[minimal_projection=["id"]]
+  #[org_schema_has_data=true]
+  #[org_schema_has_name=true];
+
+  action buy_book(in req book : Entity(edu.stanford.cs294s.sierrakn:Book)
+                          #[string_values="edu.stanford.cs294s.sierrakn:Book:name"]
+                          #_[prompt="What book would you like to buy?"],
+                          in req author : Person
+                          #_[prompt=["who is the book by",
+                                     "by which author",
+                                     "who wrote the book"]]
+                          #_[canonical={
+                            default="passive_verb",
+                            base=["author"],
+                            passive_verb = ["written by #", "by #"],
+                          }],
+                          in req book_seller : Enum(amazon, barnesandnoble)
+                          #_[prompt=["where do you want to buy your book",
+                                     "which website should I use to purchase your book"
+                                     ]]
+                          #_[canonical={
+                            default="base",
+                            base=["book seller", "website", "online bookstore", "bookstore"],
+                          }],
+                          in req address : String
+                          #_[prompt=["where should I send this book",
+                                     "to which address would you like me to deliver the book",
+                                     "which address should I use as the shipping address"]]
+                          #_[canonical={
+                            default="base",
+                            base=["address"],
+                            preposition=["to #"]
+                          }],
+                          out order_number : String
+                          #_[canonical={
+                            default="base",
+                            base=["order number", "confirmation number"]
+                          }])
+  #_[confirmation="buy ${book}"]
+  #[confirm=false]
+  #_[on_error={
+     no_copies_available=["there are no more copies available of ${book}"],
+     purchase_error=["An error occurred while trying to purchase ${book}."]
+  }];
+}
