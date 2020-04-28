@@ -1,11 +1,19 @@
+<<<<<<< HEAD
 class @edu.stanford.cs294s.sierrakn
+=======
+class @edu.stanford.cs294s.sierrakn.Book
+>>>>>>> 8887e2af9b544ffe0bcde2fb6d94cd11aac27415
 #_[name="sierrakn in Schema.org"]
 #_[description="Scraped data from websites that support schema.org"]
 #[whitelist=["Book", "Review", "Person"]] {
   import loader from @org.thingpedia.v2();
   import config from @org.thingpedia.config.none();
 
+<<<<<<< HEAD
   list query Thing(out id: Entity(edu.stanford.cs294s.sierrakn:Thing) #[unique=true] #[filterable=false] #[org_schema_has_data=true],
+=======
+  list query Thing(out id: Entity(edu.stanford.cs294s.sierrakn.Book:Thing) #[unique=true] #[filterable=false] #[org_schema_has_data=true],
+>>>>>>> 8887e2af9b544ffe0bcde2fb6d94cd11aac27415
                    out url: Entity(tt:url) #_[canonical={base=["url", "link"]}] #[org_schema_type="URL"] #[org_schema_has_data=true],
                    out image: Entity(tt:picture) #_[canonical={base=["image"]}] #[org_schema_type="URL"] #[org_schema_has_data=true])
   #_[canonical="thing"]
@@ -15,7 +23,11 @@ class @edu.stanford.cs294s.sierrakn
   #[org_schema_has_data=true]
   #[org_schema_has_name=true];
 
+<<<<<<< HEAD
   list query CreativeWork extends Thing(out id: Entity(edu.stanford.cs294s.sierrakn:CreativeWork) #[unique=true] #[filterable=false] #[org_schema_has_data=true],
+=======
+  list query CreativeWork extends Thing(out id: Entity(edu.stanford.cs294s.sierrakn.Book:CreativeWork) #[unique=true] #[filterable=false] #[org_schema_has_data=true],
+>>>>>>> 8887e2af9b544ffe0bcde2fb6d94cd11aac27415
                                         out aggregateRating: {
                                           reviewCount: Number #_[canonical={
                                               base=["number of reviews"]
@@ -28,13 +40,22 @@ class @edu.stanford.cs294s.sierrakn
                                               adjective = ["#-star"]
                                             }] #[org_schema_type="Number"] #[org_schema_has_data=true]
                                         } #_[canonical={base=["aggregate rating"]}] #[org_schema_type="AggregateRating"] #[org_schema_has_data=true],
+<<<<<<< HEAD
                                         out award: Array(String) #_[canonical={base=["awards"]}] #[org_schema_type="Text"] #[string_values="edu.stanford.cs294s.sierrakn:CreativeWork_award"] #[org_schema_has_data=true],
+=======
+                                        out award: Array(String) #_[canonical={base=["awards"]}] #[org_schema_type="Text"] #[string_values="edu.stanford.cs294s.sierrakn.Book:CreativeWork_award"] #[org_schema_has_data=true],
+>>>>>>> 8887e2af9b544ffe0bcde2fb6d94cd11aac27415
                                         out inLanguage: String #_[canonical={
                                             base=["language"],
                                             adjective = ["#"],
                                             reverse_property = ["in #"]
+<<<<<<< HEAD
               }] #[org_schema_type="Text"] #[string_values="edu.stanford.cs294s.sierrakn:CreativeWork_inLanguage"] #[org_schema_has_data=true],
                                         out author: Entity(edu.stanford.cs294s.sierrakn:Person) #_[canonical={
+=======
+              }] #[org_schema_type="Text"] #[string_values="edu.stanford.cs294s.sierrakn.Book:CreativeWork_inLanguage"] #[org_schema_has_data=true],
+                                        out author: Entity(edu.stanford.cs294s.sierrakn.Book:Person) #_[canonical={
+>>>>>>> 8887e2af9b544ffe0bcde2fb6d94cd11aac27415
                                             base=["author"],
                                             passive_verb = ["written by #"],
                                             verb = ["# wrote"]
@@ -46,9 +67,15 @@ class @edu.stanford.cs294s.sierrakn
   #[org_schema_has_data=true]
   #[org_schema_has_name=true];
 
+<<<<<<< HEAD
   list query Book extends CreativeWork(out id: Entity(edu.stanford.cs294s.sierrakn:Book) #[unique=true] #[filterable=false] #[org_schema_has_data=true],
                                        out isbn: String #_[canonical={passive_verb=["isbn"],base=["isbn"]}] #[org_schema_type="Text"] #[string_values="edu.stanford.cs294s.sierrakn:Book_isbn"] #[org_schema_has_data=true],
                                        out bookEdition: String #_[canonical={base=["book edition"]}] #[org_schema_type="Text"] #[string_values="edu.stanford.cs294s.sierrakn:Book_bookEdition"] #[org_schema_has_data=true],
+=======
+  list query Book extends CreativeWork(out id: Entity(edu.stanford.cs294s.sierrakn.Book.Book:Book) #[unique=true] #[filterable=false] #[org_schema_has_data=true],
+                                       out isbn: String #_[canonical={passive_verb=["isbn"],base=["isbn"]}] #[org_schema_type="Text"] #[string_values="edu.stanford.cs294s.sierrakn.Book:Book_isbn"] #[org_schema_has_data=true],
+                                       out bookEdition: String #_[canonical={base=["book edition"]}] #[org_schema_type="Text"] #[string_values="edu.stanford.cs294s.sierrakn.Book:Book_bookEdition"] #[org_schema_has_data=true],
+>>>>>>> 8887e2af9b544ffe0bcde2fb6d94cd11aac27415
                                        out bookFormat: Enum(EBook,AudiobookFormat,Hardcover,Paperback) #_[canonical={base=["book format"]}] #[org_schema_type="BookFormatType"] #[org_schema_has_data=true],
                                        out numberOfPages: Number #_[canonical={
                                            base=["number of pages"],
@@ -62,7 +89,11 @@ class @edu.stanford.cs294s.sierrakn
   #[org_schema_has_data=true]
   #[org_schema_has_name=true];
 
+<<<<<<< HEAD
   list query Person extends Thing(out id: Entity(edu.stanford.cs294s.sierrakn:Person) #[unique=true] #[filterable=false] #[org_schema_has_data=true])
+=======
+  list query Person extends Thing(out id: Entity(edu.stanford.cs294s.sierrakn.Book:Person) #[unique=true] #[filterable=false] #[org_schema_has_data=true])
+>>>>>>> 8887e2af9b544ffe0bcde2fb6d94cd11aac27415
   #_[canonical="person"]
   #_[confirmation="person"]
   #[confirm=false]
@@ -70,8 +101,13 @@ class @edu.stanford.cs294s.sierrakn
   #[org_schema_has_data=true]
   #[org_schema_has_name=true];
 
+<<<<<<< HEAD
   action buy_book(in req book : Entity(edu.stanford.cs294s.sierrakn:Book)
                           #[string_values="edu.stanford.cs294s.sierrakn:Book:name"]
+=======
+  action buy_book(in req book : Entity(edu.stanford.cs294s.sierrakn.Book:Book)
+                          #[string_values="edu.stanford.cs294s.sierrakn.Book:Book:name"]
+>>>>>>> 8887e2af9b544ffe0bcde2fb6d94cd11aac27415
                           #_[prompt="What book would you like to buy?"],
                           in req author : Person
                           #_[prompt=["who is the book by",
