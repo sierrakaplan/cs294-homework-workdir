@@ -1,4 +1,4 @@
-dataset @edu.stanford.cs294s.sierrakn.Book{
+dataset @edu.stanford.cs294s.sierrakn.Book {
   action := @edu.stanford.cs294s.sierrakn.Book.buy_book()
   #_[preprocessed=["buy a book""]];
 
