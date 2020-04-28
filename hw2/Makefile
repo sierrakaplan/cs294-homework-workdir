@@ -17,8 +17,8 @@ thingpedia_developer_key =0beeb145cbcef8a1d9a7928d6cd5bb2095db1e58912b494e5e3882
 
 # set this when you run "make" to change which experiment your running
 # e.g. "make experiment=foo datadir"
-experiment ?= restaurant
-all_experiments = restaurant
+experiment ?= book
+all_experiments = book
 
 # edit here if you have paraphrase data
 # (you don't for the homework, but you might in the project)
